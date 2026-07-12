@@ -1,11 +1,19 @@
 Option Explicit
 
-Dim shell, fileSystem, scriptFolder, command
+Dim shell, fileSystem, scriptFolder, scriptPath, logFolder, logPath, command, exitCode
 Set shell = CreateObject("WScript.Shell")
 Set fileSystem = CreateObject("Scripting.FileSystemObject")
 
 scriptFolder = fileSystem.GetParentFolderName(WScript.ScriptFullName)
-command = "powershell.exe -NoProfile -ExecutionPolicy Bypass -File """ & scriptFolder & "\publish-status.ps1"""
+scriptPath = scriptFolder & "\publish-status.ps1"
+logFolder = scriptFolder & "\logs"
+logPath = logFolder & "\publisher.log"
 
-' Window style 0 = hidden; do not wait for the publisher to finish.
-shell.Run command, 0, False
+If Not fileSystem.FolderExists(logFolder) Then
+    fileSystem.CreateFolder(logFolder)
+End If
+
+' Window style 0 = hidden. Waiting propagates the real PowerShell exit code to Task Scheduler.
+command = "powershell.exe -NoProfile -ExecutionPolicy Bypass -Command ""& '" & scriptPath & "' *>> '" & logPath & "'"""
+exitCode = shell.Run(command, 0, True)
+WScript.Quit exitCode
