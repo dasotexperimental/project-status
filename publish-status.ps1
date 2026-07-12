@@ -20,6 +20,26 @@ $configuration = Get-Content -LiteralPath $ConfigurationPath -Raw | ConvertFrom-
 $cutoff = (Get-Date).ToUniversalTime().AddDays(-180)
 
 if (-not $NoPush) {
+    $pendingChanges = @(& $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot status --porcelain)
+    if ($LASTEXITCODE -ne 0) {
+        throw 'Failed to inspect pending local status-repository changes.'
+    }
+
+    $statusRelativePath = "status/$($configuration.machine_id).json"
+    $unexpectedChanges = @($pendingChanges | Where-Object {
+        $_.Length -lt 4 -or $_.Substring(3) -ne $statusRelativePath
+    })
+    if ($unexpectedChanges.Count -gt 0) {
+        throw "Refusing to publish while unrelated local changes exist: $($unexpectedChanges -join ', ')"
+    }
+
+    if ($pendingChanges.Count -gt 0) {
+        & $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot add $statusRelativePath
+        if ($LASTEXITCODE -ne 0) { throw 'Failed to stage the pending status file.' }
+        & $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot commit -m "status($($configuration.machine_id)): retry pending update"
+        if ($LASTEXITCODE -ne 0) { throw 'Failed to commit the pending status file.' }
+    }
+
     & $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot pull --rebase
     if ($LASTEXITCODE -ne 0) {
         throw 'Failed to update the local status repository from GitHub before publishing.'
