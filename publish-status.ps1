@@ -141,7 +141,9 @@ if ($LASTEXITCODE -ne 0) { throw 'Failed to stage the status file.' }
 
 & $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
-    Write-Host 'Status is unchanged; no commit or push required.'
+    & $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot push
+    if ($LASTEXITCODE -ne 0) { throw 'Failed to push pending local status-repository commits.' }
+    Write-Host 'Status is unchanged; pushed any pending local commits.'
     exit 0
 }
 if ($LASTEXITCODE -ne 1) { throw 'Unable to determine whether status changed.' }
