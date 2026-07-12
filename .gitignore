@@ -1,0 +1,6 @@
+# Runtime output
+logs/
+
+# Local editor and PowerShell state
+.vscode/
+*.tmp

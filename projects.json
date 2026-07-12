@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "machine_id": "tweebeest",
+  "projects": [
+    {
+      "id": "aza",
+      "display_name": "AZA",
+      "path": "C:\\Users\\daans\\Documents\\0_VS\\AZA"
+    }
+  ]
+}
