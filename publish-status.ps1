@@ -19,6 +19,13 @@ if (-not (Test-Path -LiteralPath $ConfigurationPath)) {
 $configuration = Get-Content -LiteralPath $ConfigurationPath -Raw | ConvertFrom-Json
 $cutoff = (Get-Date).ToUniversalTime().AddDays(-180)
 
+if (-not $NoPush) {
+    & $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot pull --rebase
+    if ($LASTEXITCODE -ne 0) {
+        throw 'Failed to update the local status repository from GitHub before publishing.'
+    }
+}
+
 function Invoke-GitText {
     param(
         [string]$ProjectPath,
@@ -107,19 +114,25 @@ function Get-SemanticJson {
     return ($copy | ConvertTo-Json -Depth 8 -Compress)
 }
 
+$needsStatusWrite = $true
 if (Test-Path -LiteralPath $statusFile) {
     $previous = Get-Content -LiteralPath $statusFile -Raw | ConvertFrom-Json
     if ((Get-SemanticJson -Value $previous) -eq (Get-SemanticJson -Value $report)) {
-        Write-Host 'Status is unchanged; no commit or push required.'
-        exit 0
+        $needsStatusWrite = $false
     }
 }
 
-$json = $report | ConvertTo-Json -Depth 8
-[IO.File]::WriteAllText($statusFile, $json + [Environment]::NewLine, [Text.UTF8Encoding]::new($false))
+if ($needsStatusWrite) {
+    $json = $report | ConvertTo-Json -Depth 8
+    [IO.File]::WriteAllText($statusFile, $json + [Environment]::NewLine, [Text.UTF8Encoding]::new($false))
+}
 
 if ($NoPush) {
-    Write-Host "Wrote $statusFile without committing or pushing."
+    if ($needsStatusWrite) {
+        Write-Host "Wrote $statusFile without committing or pushing."
+    } else {
+        Write-Host 'Status is unchanged; no write, commit, or push required.'
+    }
     exit 0
 }
 
