@@ -98,6 +98,23 @@ $report = [ordered]@{
 
 New-Item -ItemType Directory -Path $StatusDirectory -Force | Out-Null
 $statusFile = Join-Path $StatusDirectory "$($configuration.machine_id).json"
+
+function Get-SemanticJson {
+    param([object]$Value)
+
+    $copy = $Value | ConvertTo-Json -Depth 8 | ConvertFrom-Json
+    $copy.PSObject.Properties.Remove('generated_at')
+    return ($copy | ConvertTo-Json -Depth 8 -Compress)
+}
+
+if (Test-Path -LiteralPath $statusFile) {
+    $previous = Get-Content -LiteralPath $statusFile -Raw | ConvertFrom-Json
+    if ((Get-SemanticJson -Value $previous) -eq (Get-SemanticJson -Value $report)) {
+        Write-Host 'Status is unchanged; no commit or push required.'
+        exit 0
+    }
+}
+
 $json = $report | ConvertTo-Json -Depth 8
 [IO.File]::WriteAllText($statusFile, $json + [Environment]::NewLine, [Text.UTF8Encoding]::new($false))
 
@@ -109,7 +126,7 @@ if ($NoPush) {
 & $Git -C $RepositoryRoot add 'status/*.json'
 if ($LASTEXITCODE -ne 0) { throw 'Failed to stage the status file.' }
 
-$hasChanges = & $Git -C $RepositoryRoot diff --cached --quiet
+& $Git -C $RepositoryRoot diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
     Write-Host 'Status is unchanged; no commit or push required.'
     exit 0
