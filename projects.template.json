@@ -1,11 +1,8 @@
 {
   "schema_version": 1,
   "machine_id": "replace-with-machine-id",
-  "projects": [
-    {
-      "id": "project-id",
-      "display_name": "Project name",
-      "path": "C:\\path\\to\\project"
-    }
+  "projects_root": "C:\\path\\to\\projects-root",
+  "excluded_project_directories": [
+    "FileSync"
   ]
 }

@@ -59,6 +59,51 @@ function Invoke-GitText {
     return ($result -join "`n").Trim()
 }
 
+function Get-DetectedProjects {
+    $projectsRoot = $configuration.projects_root
+    if (-not (Test-Path -LiteralPath $projectsRoot)) {
+        throw "Configured projects root is unavailable: $projectsRoot"
+    }
+
+    $excludedNames = @($configuration.excluded_project_directories)
+    $markerFiles = @('pyproject.toml', 'package.json', 'cargo.toml', 'go.mod', 'composer.json', 'gemfile', 'requirements.txt', 'requirements-dev.txt')
+    $sourceExtensions = @('.py', '.js', '.jsx', '.ts', '.tsx', '.cs', '.fs', '.vb', '.java', '.go', '.rs', '.c', '.h', '.cpp', '.hpp', '.php', '.rb', '.swift', '.kt', '.kts', '.sh', '.ps1', '.bat', '.cmd', '.sln', '.csproj', '.fsproj')
+    $ignoredSearchDirectories = @('.git', '.venv', 'venv', 'node_modules', '__pycache__', '.pytest_cache', '.pytest_tmp', 'build', 'dist', 'target', 'bin', 'obj')
+
+    foreach ($directory in Get-ChildItem -LiteralPath $projectsRoot -Directory -Force -ErrorAction SilentlyContinue | Sort-Object Name) {
+        if ($excludedNames -contains $directory.Name) { continue }
+
+        $isProject = (Test-Path -LiteralPath (Join-Path $directory.FullName '.git\HEAD')) -or (Test-Path -LiteralPath (Join-Path $directory.FullName '.agents'))
+        $toSearch = @([ordered]@{ path = $directory.FullName; depth = 0 })
+        while (-not $isProject -and $toSearch.Count -gt 0) {
+            $current = $toSearch[0]
+            $toSearch = @($toSearch | Select-Object -Skip 1)
+            foreach ($item in Get-ChildItem -LiteralPath $current.path -Force -ErrorAction SilentlyContinue) {
+                if ($item.PSIsContainer) {
+                    if ($current.depth -lt 2 -and $ignoredSearchDirectories -notcontains $item.Name) {
+                        $toSearch += [ordered]@{ path = $item.FullName; depth = $current.depth + 1 }
+                    }
+                    continue
+                }
+
+                if ($markerFiles -contains $item.Name.ToLowerInvariant() -or $sourceExtensions -contains $item.Extension.ToLowerInvariant()) {
+                    $isProject = $true
+                    break
+                }
+            }
+        }
+
+        if ($isProject) {
+            $projectId = ($directory.Name.ToLowerInvariant() -replace '[^a-z0-9]+', '-').Trim('-')
+            [PSCustomObject]@{
+                id = $projectId
+                display_name = $directory.Name
+                path = $directory.FullName
+            }
+        }
+    }
+}
+
 function Get-RecentFiles {
     param([string]$ProjectPath)
 
@@ -78,41 +123,42 @@ function Get-RecentFiles {
         }
 }
 
-$projectReports = foreach ($project in $configuration.projects) {
-    if (-not (Test-Path -LiteralPath $project.path)) {
-        [ordered]@{
-            id = $project.id
-            display_name = $project.display_name
-            state = 'missing_local_folder'
-            warning = "Configured path is unavailable on $($configuration.machine_id)."
-        }
-        continue
-    }
-
-    $branch = Invoke-GitText -ProjectPath $project.path -Arguments @('branch', '--show-current')
-    $commit = Invoke-GitText -ProjectPath $project.path -Arguments @('rev-parse', 'HEAD')
-    $commitTime = Invoke-GitText -ProjectPath $project.path -Arguments @('log', '-1', '--format=%cI')
-    $workingTree = Invoke-GitText -ProjectPath $project.path -Arguments @('status', '--porcelain=v1')
-    $changeCount = if ([string]::IsNullOrWhiteSpace($workingTree)) { 0 } else { @($workingTree -split "`n").Count }
+$projectReports = foreach ($project in Get-DetectedProjects) {
     $recentFiles = @(Get-RecentFiles -ProjectPath $project.path)
+    $hasGit = [bool](Test-Path -LiteralPath (Join-Path $project.path '.git\HEAD'))
+    $gitMetadata = $null
+    $state = 'unversioned'
+    $warning = 'No Git repository detected; reporting filesystem activity only.'
 
-    [ordered]@{
-        id = $project.id
-        display_name = $project.display_name
-        state = if ($changeCount -eq 0) { 'clean' } else { 'dirty' }
-        git = [ordered]@{
+    if ($hasGit) {
+        $branch = Invoke-GitText -ProjectPath $project.path -Arguments @('branch', '--show-current')
+        $commit = Invoke-GitText -ProjectPath $project.path -Arguments @('rev-parse', 'HEAD')
+        $commitTime = Invoke-GitText -ProjectPath $project.path -Arguments @('log', '-1', '--format=%cI')
+        $workingTree = Invoke-GitText -ProjectPath $project.path -Arguments @('status', '--porcelain=v1')
+        $changeCount = if ([string]::IsNullOrWhiteSpace($workingTree)) { 0 } else { @($workingTree -split "`n").Count }
+        $state = if ($changeCount -eq 0) { 'clean' } else { 'dirty' }
+        $warning = $null
+        $gitMetadata = [ordered]@{
             branch = $branch
             commit = $commit
             last_commit_at = $commitTime
             dirty = ($changeCount -gt 0)
             uncommitted_change_count = $changeCount
         }
+    }
+
+    [ordered]@{
+        id = $project.id
+        display_name = $project.display_name
+        state = $state
+        last_meaningful_change_at = if ($recentFiles.Count -gt 0) { $recentFiles[0].modified_at } else { $null }
+        git = $gitMetadata
         sync = [ordered]@{
             state = 'not_configured'
             detail = 'Syncthing/NAS synchronization has not been configured yet.'
         }
         recent_files = $recentFiles
-        warning = $null
+        warning = $warning
     }
 }
 

@@ -1,12 +1,13 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-12T18:36:10.8256679Z",
+    "generated_at":  "2026-07-12T19:20:35.4548002Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
                          "id":  "aza",
                          "display_name":  "AZA",
                          "state":  "dirty",
+                         "last_meaningful_change_at":  "2026-07-12T18:30:18.6085572Z",
                          "git":  {
                                      "branch":  "main",
                                      "commit":  "4284739821d3d6d75daf315433bf2e9d134594bf",
@@ -221,6 +222,435 @@
                                               }
                                           ],
                          "warning":  null
+                     },
+                     {
+                         "id":  "calculator",
+                         "display_name":  "Calculator",
+                         "state":  "unversioned",
+                         "last_meaningful_change_at":  "2026-02-14T22:01:53.9357532Z",
+                         "git":  null,
+                         "sync":  {
+                                      "state":  "not_configured",
+                                      "detail":  "Syncthing/NAS synchronization has not been configured yet."
+                                  },
+                         "recent_files":  [
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-02-14T22:01:53.9357532Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\ReleaseChecklist.md",
+                                                  "modified_at":  "2026-02-14T22:01:49.8647198Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\UserManual.md",
+                                                  "modified_at":  "2026-02-14T22:01:46.8916975Z"
+                                              },
+                                              {
+                                                  "path":  "requirements-dev.txt",
+                                                  "modified_at":  "2026-02-14T22:01:41.4445213Z"
+                                              },
+                                              {
+                                                  "path":  "scripts\\build_windows.ps1",
+                                                  "modified_at":  "2026-02-14T22:01:39.4036503Z"
+                                              },
+                                              {
+                                                  "path":  "resources\\version_info.txt",
+                                                  "modified_at":  "2026-02-14T22:01:35.4202405Z"
+                                              },
+                                              {
+                                                  "path":  "resources\\app.ico",
+                                                  "modified_at":  "2026-02-14T22:01:28.1239055Z"
+                                              },
+                                              {
+                                                  "path":  "scripts\\generate_icon.py",
+                                                  "modified_at":  "2026-02-14T22:01:24.1404110Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_engine.py",
+                                                  "modified_at":  "2026-02-14T22:00:57.8342002Z"
+                                              },
+                                              {
+                                                  "path":  "app.py",
+                                                  "modified_at":  "2026-02-14T22:00:29.3128544Z"
+                                              },
+                                              {
+                                                  "path":  "calculator\\__init__.py",
+                                                  "modified_at":  "2026-02-14T21:59:33.7133582Z"
+                                              },
+                                              {
+                                                  "path":  "calculator\\engine.py",
+                                                  "modified_at":  "2026-02-14T21:59:25.7523290Z"
+                                              }
+                                          ],
+                         "warning":  "No Git repository detected; reporting filesystem activity only."
+                     },
+                     {
+                         "id":  "createfolderui",
+                         "display_name":  "CreateFolderUI",
+                         "state":  "unversioned",
+                         "last_meaningful_change_at":  null,
+                         "git":  null,
+                         "sync":  {
+                                      "state":  "not_configured",
+                                      "detail":  "Syncthing/NAS synchronization has not been configured yet."
+                                  },
+                         "recent_files":  [
+
+                                          ],
+                         "warning":  "No Git repository detected; reporting filesystem activity only."
+                     },
+                     {
+                         "id":  "hap-by-chatgpt",
+                         "display_name":  "HAP by chatGPT",
+                         "state":  "unversioned",
+                         "last_meaningful_change_at":  "2026-07-12T13:43:30.8877713Z",
+                         "git":  null,
+                         "sync":  {
+                                      "state":  "not_configured",
+                                      "detail":  "Syncthing/NAS synchronization has not been configured yet."
+                                  },
+                         "recent_files":  [
+                                              {
+                                                  "path":  "projects.json",
+                                                  "modified_at":  "2026-07-12T13:43:30.8877713Z"
+                                              },
+                                              {
+                                                  "path":  "start_project_focus.bat",
+                                                  "modified_at":  "2026-06-16T22:28:24.6027706Z"
+                                              },
+                                              {
+                                                  "path":  "web_server.py",
+                                                  "modified_at":  "2026-06-16T22:09:59.4286017Z"
+                                              },
+                                              {
+                                                  "path":  "web\\static\\index.html",
+                                                  "modified_at":  "2026-06-16T22:09:46.8315086Z"
+                                              },
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-06-16T22:04:16.9072833Z"
+                                              },
+                                              {
+                                                  "path":  "project_focus\\models.py",
+                                                  "modified_at":  "2026-06-16T22:04:06.8791689Z"
+                                              },
+                                              {
+                                                  "path":  "web\\static\\app.js",
+                                                  "modified_at":  "2026-06-16T22:04:00.4148975Z"
+                                              },
+                                              {
+                                                  "path":  "web\\static\\styles.css",
+                                                  "modified_at":  "2026-06-16T22:03:56.3718980Z"
+                                              },
+                                              {
+                                                  "path":  "project_focus\\dashboard.py",
+                                                  "modified_at":  "2026-06-16T22:03:11.9338586Z"
+                                              },
+                                              {
+                                                  "path":  "project_focus\\registry.py",
+                                                  "modified_at":  "2026-06-16T22:02:58.7990492Z"
+                                              },
+                                              {
+                                                  "path":  "focus_cli.py",
+                                                  "modified_at":  "2026-03-08T23:56:34.2158862Z"
+                                              },
+                                              {
+                                                  "path":  "project_focus\\__init__.py",
+                                                  "modified_at":  "2026-03-08T23:55:44.3642903Z"
+                                              },
+                                              {
+                                                  "path":  "project_focus\\datastore.py",
+                                                  "modified_at":  "2026-03-08T23:55:44.3170779Z"
+                                              }
+                                          ],
+                         "warning":  "No Git repository detected; reporting filesystem activity only."
+                     },
+                     {
+                         "id":  "llmtocad",
+                         "display_name":  "LLMtoCAD",
+                         "state":  "unversioned",
+                         "last_meaningful_change_at":  "2026-07-12T14:54:45.8356809Z",
+                         "git":  null,
+                         "sync":  {
+                                      "state":  "not_configured",
+                                      "detail":  "Syncthing/NAS synchronization has not been configured yet."
+                                  },
+                         "recent_files":  [
+                                              {
+                                                  "path":  "final_spec_sol.md",
+                                                  "modified_at":  "2026-07-12T14:54:45.8356809Z"
+                                              },
+                                              {
+                                                  "path":  "final_spec_terra.md",
+                                                  "modified_at":  "2026-07-12T14:49:47.4723145Z"
+                                              },
+                                              {
+                                                  "path":  "final_spec_luna.md",
+                                                  "modified_at":  "2026-07-12T14:48:28.9561152Z"
+                                              }
+                                          ],
+                         "warning":  "No Git repository detected; reporting filesystem activity only."
+                     },
+                     {
+                         "id":  "qpo",
+                         "display_name":  "QPO",
+                         "state":  "unversioned",
+                         "last_meaningful_change_at":  "2026-07-04T21:40:55.8643829Z",
+                         "git":  null,
+                         "sync":  {
+                                      "state":  "not_configured",
+                                      "detail":  "Syncthing/NAS synchronization has not been configured yet."
+                                  },
+                         "recent_files":  [
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\.local_state\\state.json",
+                                                  "modified_at":  "2026-07-04T21:40:55.8643829Z"
+                                              },
+                                              {
+                                                  "path":  "build\\pyinstaller\\COLLECT-00.toc",
+                                                  "modified_at":  "2026-02-14T21:41:24.9815651Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\base_library.zip",
+                                                  "modified_at":  "2026-02-14T21:41:24.9714304Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_zh_TW.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9679272Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_pl.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9649379Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_hr.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9628449Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_sv.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9593001Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_es.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9568750Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_ar.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9548922Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_tr.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9508771Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_he.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9488768Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_ru.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9447152Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_he.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9422419Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_sv.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9394405Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_en.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9350336Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_sk.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9338336Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_ja.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9304966Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_hu.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9267480Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_zh_CN.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9247349Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_pl.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9207350Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_zh_TW.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9157369Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_de.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9112366Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_zh_CN.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9082349Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_sl.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9050954Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_ru.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.9017981Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_ru.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8996568Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_ka.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8962312Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_da.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8932407Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_nl.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8912418Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_nn.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8872350Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_nl.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8835015Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_fr.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8814005Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_hr.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8787897Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_nn.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8738400Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_bg.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8708425Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_bg.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8688407Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_ko.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8654775Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_lt.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8616012Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_uk.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8586359Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_lg.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8561560Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_fi.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8541239Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_it.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8521231Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_ja.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8491239Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_pt_BR.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8457558Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_cs.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8434372Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_gl.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8400269Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_cs.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8376418Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qtbase_hu.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8346504Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_help_ca.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8326562Z"
+                                              },
+                                              {
+                                                  "path":  "dist\\QuickPrompt\\_internal\\PySide6\\translations\\qt_ca.qm",
+                                                  "modified_at":  "2026-02-14T21:41:24.8296424Z"
+                                              }
+                                          ],
+                         "warning":  "No Git repository detected; reporting filesystem activity only."
+                     },
+                     {
+                         "id":  "timemngr",
+                         "display_name":  "TimeMNGR",
+                         "state":  "unversioned",
+                         "last_meaningful_change_at":  "2026-06-16T21:46:16.8615899Z",
+                         "git":  null,
+                         "sync":  {
+                                      "state":  "not_configured",
+                                      "detail":  "Syncthing/NAS synchronization has not been configured yet."
+                                  },
+                         "recent_files":  [
+                                              {
+                                                  "path":  "planner\\planner_state.json",
+                                                  "modified_at":  "2026-06-16T21:46:16.8615899Z"
+                                              },
+                                              {
+                                                  "path":  "planner\\templates\\index.html",
+                                                  "modified_at":  "2026-02-14T17:11:31.4207743Z"
+                                              },
+                                              {
+                                                  "path":  "planner\\app.py",
+                                                  "modified_at":  "2026-02-14T15:04:15.8899181Z"
+                                              },
+                                              {
+                                                  "path":  "planner\\static\\icon.svg",
+                                                  "modified_at":  "2026-02-14T14:30:24.9881521Z"
+                                              },
+                                              {
+                                                  "path":  "planner\\static\\manifest.json",
+                                                  "modified_at":  "2026-02-14T14:30:19.3088052Z"
+                                              },
+                                              {
+                                                  "path":  "start_chunk_planner.bat",
+                                                  "modified_at":  "2026-02-05T20:15:49.7558328Z"
+                                              },
+                                              {
+                                                  "path":  ".vscode\\settings.json",
+                                                  "modified_at":  "2026-02-05T17:17:49.5519750Z"
+                                              },
+                                              {
+                                                  "path":  "planner\\requirements.txt",
+                                                  "modified_at":  "2026-02-05T17:11:06.2408158Z"
+                                              }
+                                          ],
+                         "warning":  "No Git repository detected; reporting filesystem activity only."
                      }
                  ]
 }
