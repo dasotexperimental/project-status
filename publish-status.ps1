@@ -5,7 +5,7 @@ param(
 
 $ErrorActionPreference = 'Stop'
 $RepositoryRoot = $PSScriptRoot
-$ConfigurationPath = Join-Path $RepositoryRoot 'projects.json'
+$ConfigurationPath = Join-Path $RepositoryRoot 'projects.local.json'
 $StatusDirectory = Join-Path $RepositoryRoot 'status'
 $Git = 'C:\Program Files\Git\cmd\git.exe'
 

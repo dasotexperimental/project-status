@@ -1,6 +1,9 @@
 # Runtime output
 logs/
 
+# Per-machine project locations
+projects.local.json
+
 # Local editor and PowerShell state
 .vscode/
 *.tmp

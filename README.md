@@ -2,6 +2,8 @@
 
 This private repository contains a small, externally available status record for selected local projects. It does not contain project source files, NAS data, credentials, virtual environments, or logs.
 
+`projects.local.json` supplies the local project paths and is deliberately ignored. Copy `projects.template.json` to that filename and edit it when adding a machine.
+
 ## Current machine
 
 `tweebeest` reports status for the local AZA Git repository.
