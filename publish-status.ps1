@@ -123,19 +123,19 @@ if ($NoPush) {
     exit 0
 }
 
-& $Git -C $RepositoryRoot add 'status/*.json'
+& $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot add 'status/*.json'
 if ($LASTEXITCODE -ne 0) { throw 'Failed to stage the status file.' }
 
-& $Git -C $RepositoryRoot diff --cached --quiet
+& $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
     Write-Host 'Status is unchanged; no commit or push required.'
     exit 0
 }
 if ($LASTEXITCODE -ne 1) { throw 'Unable to determine whether status changed.' }
 
-& $Git -C $RepositoryRoot commit -m "status($($configuration.machine_id)): update"
+& $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot commit -m "status($($configuration.machine_id)): update"
 if ($LASTEXITCODE -ne 0) { throw 'Failed to commit the status update.' }
-& $Git -C $RepositoryRoot push
+& $Git -c "safe.directory=$RepositoryRoot" -C $RepositoryRoot push
 if ($LASTEXITCODE -ne 0) { throw 'Failed to push the status update.' }
 
 Write-Host "Published $statusFile."
