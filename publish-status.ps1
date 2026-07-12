@@ -63,7 +63,7 @@ function Get-RecentFiles {
     param([string]$ProjectPath)
 
     $excludedDirectories = @('.git', '.venv', 'venv', '.pytest_cache', '.pytest_tmp', '__pycache__', 'data_raw', 'data_processed', 'logs')
-    Get-ChildItem -LiteralPath $ProjectPath -Recurse -File -Force |
+    Get-ChildItem -LiteralPath $ProjectPath -Recurse -File -Force -ErrorAction SilentlyContinue |
         Where-Object {
             $_.LastWriteTimeUtc -ge $cutoff -and
             ($_.FullName.Substring($ProjectPath.Length).Split([IO.Path]::DirectorySeparatorChar, [IO.Path]::AltDirectorySeparatorChar) | Where-Object { $excludedDirectories -contains $_ }).Count -eq 0
