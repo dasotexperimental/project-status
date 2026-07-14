@@ -1,25 +1,33 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-12T19:20:35.4548002Z",
+    "generated_at":  "2026-07-14T08:01:02.5826822Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
                          "id":  "aza",
                          "display_name":  "AZA",
                          "state":  "dirty",
-                         "last_meaningful_change_at":  "2026-07-12T18:30:18.6085572Z",
+                         "last_meaningful_change_at":  "2026-07-14T08:00:59.8624526Z",
                          "git":  {
                                      "branch":  "main",
                                      "commit":  "4284739821d3d6d75daf315433bf2e9d134594bf",
                                      "last_commit_at":  "2026-07-12T16:42:30+02:00",
                                      "dirty":  true,
-                                     "uncommitted_change_count":  1
+                                     "uncommitted_change_count":  3
                                  },
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "tests\\test_retrieval_intent.py",
+                                                  "modified_at":  "2026-07-14T08:00:59.8624526Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\retrieve\\intent.py",
+                                                  "modified_at":  "2026-07-14T08:00:58.9679679Z"
+                                              },
                                               {
                                                   "path":  "aza\\llm\\server_args.py",
                                                   "modified_at":  "2026-07-12T18:30:18.6085572Z"
@@ -45,11 +53,11 @@
                                                   "modified_at":  "2026-07-12T00:43:16.0741650Z"
                                               },
                                               {
-                                                  "path":  "aza\\retrieve\\__init__.py",
+                                                  "path":  "aza\\answer\\evidence.py",
                                                   "modified_at":  "2026-07-12T00:43:16.0731649Z"
                                               },
                                               {
-                                                  "path":  "aza\\answer\\evidence.py",
+                                                  "path":  "aza\\retrieve\\__init__.py",
                                                   "modified_at":  "2026-07-12T00:43:16.0731649Z"
                                               },
                                               {
@@ -65,10 +73,6 @@
                                                   "modified_at":  "2026-07-12T00:40:30.3150850Z"
                                               },
                                               {
-                                                  "path":  "aza\\retrieve\\intent.py",
-                                                  "modified_at":  "2026-07-12T00:40:30.3150850Z"
-                                              },
-                                              {
                                                   "path":  "aza\\evaluation\\golden_run.py",
                                                   "modified_at":  "2026-07-12T00:39:19.6121972Z"
                                               },
@@ -79,10 +83,6 @@
                                               {
                                                   "path":  "tests\\test_value_extract.py",
                                                   "modified_at":  "2026-07-12T00:38:37.1329024Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_retrieval_intent.py",
-                                                  "modified_at":  "2026-07-12T00:38:37.1314372Z"
                                               },
                                               {
                                                   "path":  "tests\\test_hellingbaan_value_regression.py",
@@ -129,11 +129,11 @@
                                                   "modified_at":  "2026-07-12T00:21:03.6510530Z"
                                               },
                                               {
-                                                  "path":  "aza\\retrieve\\tiered.py",
+                                                  "path":  "aza\\retrieve\\query_plan.py",
                                                   "modified_at":  "2026-07-12T00:21:03.6500543Z"
                                               },
                                               {
-                                                  "path":  "aza\\retrieve\\query_plan.py",
+                                                  "path":  "aza\\retrieve\\tiered.py",
                                                   "modified_at":  "2026-07-12T00:21:03.6500543Z"
                                               },
                                               {
