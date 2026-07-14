@@ -1,19 +1,19 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-14T08:01:02.5826822Z",
+    "generated_at":  "2026-07-14T22:33:09.1085561Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
                          "id":  "aza",
                          "display_name":  "AZA",
                          "state":  "dirty",
-                         "last_meaningful_change_at":  "2026-07-14T08:00:59.8624526Z",
+                         "last_meaningful_change_at":  "2026-07-14T22:31:26.6615763Z",
                          "git":  {
                                      "branch":  "main",
-                                     "commit":  "4284739821d3d6d75daf315433bf2e9d134594bf",
-                                     "last_commit_at":  "2026-07-12T16:42:30+02:00",
+                                     "commit":  "707d5b0f5e3d02fc0c21315991cf15e6e0ad29ea",
+                                     "last_commit_at":  "2026-07-15T00:32:39+02:00",
                                      "dirty":  true,
-                                     "uncommitted_change_count":  3
+                                     "uncommitted_change_count":  38
                                  },
                          "sync":  {
                                       "state":  "not_configured",
@@ -21,12 +21,176 @@
                                   },
                          "recent_files":  [
                                               {
+                                                  "path":  ".gitignore",
+                                                  "modified_at":  "2026-07-14T22:31:26.6615763Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\gui\\static\\index.html",
+                                                  "modified_at":  "2026-07-14T20:33:50.2197831Z"
+                                              },
+                                              {
+                                                  "path":  "MINI_USER_MANUAL.md",
+                                                  "modified_at":  "2026-07-14T20:33:33.8254955Z"
+                                              },
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-14T20:33:19.1026863Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_gui_service.py",
+                                                  "modified_at":  "2026-07-14T20:29:33.8231854Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\cli\\main.py",
+                                                  "modified_at":  "2026-07-14T20:29:16.6589666Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\gui\\server.py",
+                                                  "modified_at":  "2026-07-14T20:26:44.7768208Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\gui\\__main__.py",
+                                                  "modified_at":  "2026-07-14T20:26:43.6531985Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\gui\\__init__.py",
+                                                  "modified_at":  "2026-07-14T20:26:42.5207038Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\llm\\client.py",
+                                                  "modified_at":  "2026-07-14T19:34:16.8338256Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\llm\\llamacpp_server.py",
+                                                  "modified_at":  "2026-07-14T19:32:39.2272235Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_llamacpp_server.py",
+                                                  "modified_at":  "2026-07-14T19:31:26.1877381Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_llm_server_recovery.py",
+                                                  "modified_at":  "2026-07-14T19:31:25.0380868Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\answer\\evidence.py",
+                                                  "modified_at":  "2026-07-14T19:30:35.8875622Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\evaluation\\question_run.py",
+                                                  "modified_at":  "2026-07-14T19:30:23.6319185Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\llm\\intent_cache.py",
+                                                  "modified_at":  "2026-07-14T19:30:22.4915169Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\llm\\intent.py",
+                                                  "modified_at":  "2026-07-14T19:29:51.4257739Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\llm\\schema.py",
+                                                  "modified_at":  "2026-07-14T19:28:47.1452092Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\llm\\config.py",
+                                                  "modified_at":  "2026-07-14T19:28:46.0183067Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\85_nieuwe_testvragen.md",
+                                                  "modified_at":  "2026-07-14T16:06:20.6413351Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_candidate_selector.py",
+                                                  "modified_at":  "2026-07-14T11:24:56.6213865Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_evidence_units.py",
+                                                  "modified_at":  "2026-07-14T11:23:57.6055139Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\answer\\candidate_selector.py",
+                                                  "modified_at":  "2026-07-14T11:23:56.7546482Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\answer\\evidence_units.py",
+                                                  "modified_at":  "2026-07-14T11:23:55.9016649Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\ingest\\preprocess\\table_extract_xml.py",
+                                                  "modified_at":  "2026-07-14T11:22:55.0879688Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_preprocess_determinism.py",
+                                                  "modified_at":  "2026-07-14T11:22:00.1213272Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_table_extract_coverage.py",
+                                                  "modified_at":  "2026-07-14T11:21:53.0688139Z"
+                                              },
+                                              {
+                                                  "path":  ".pytest_tmp_audit\\bbl\\BWBR0041297_2026-01-01\\tables.jsonl",
+                                                  "modified_at":  "2026-07-14T11:21:10.1791364Z"
+                                              },
+                                              {
+                                                  "path":  ".pytest_tmp_audit\\bbl\\BWBR0041297_2026-01-01\\tables.md",
+                                                  "modified_at":  "2026-07-14T11:21:10.0298048Z"
+                                              },
+                                              {
                                                   "path":  "tests\\test_retrieval_intent.py",
-                                                  "modified_at":  "2026-07-14T08:00:59.8624526Z"
+                                                  "modified_at":  "2026-07-14T08:27:02.6013957Z"
                                               },
                                               {
                                                   "path":  "aza\\retrieve\\intent.py",
-                                                  "modified_at":  "2026-07-14T08:00:58.9679679Z"
+                                                  "modified_at":  "2026-07-14T08:27:01.7602912Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_tiered_retrieval.py",
+                                                  "modified_at":  "2026-07-14T08:25:37.4819338Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\retrieve\\tiered.py",
+                                                  "modified_at":  "2026-07-14T08:25:35.7737618Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\gouden_vragen_09.jsonl",
+                                                  "modified_at":  "2026-07-14T08:23:23.7364755Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_golden_evaluation.py",
+                                                  "modified_at":  "2026-07-14T08:21:54.1654994Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\evaluation\\golden_run.py",
+                                                  "modified_at":  "2026-07-14T08:21:53.3030813Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_article_extract_xml.py",
+                                                  "modified_at":  "2026-07-14T08:19:16.8878947Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\ingest\\pipeline.py",
+                                                  "modified_at":  "2026-07-14T08:19:16.0447554Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\store\\__init__.py",
+                                                  "modified_at":  "2026-07-14T08:19:15.1934488Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\store\\sqlite_store.py",
+                                                  "modified_at":  "2026-07-14T08:19:14.3429852Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\ingest\\types.py",
+                                                  "modified_at":  "2026-07-14T08:15:57.1594094Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\ingest\\preprocess\\__init__.py",
+                                                  "modified_at":  "2026-07-14T08:15:56.2865812Z"
+                                              },
+                                              {
+                                                  "path":  "aza\\ingest\\preprocess\\article_extract_xml.py",
+                                                  "modified_at":  "2026-07-14T08:15:55.4358671Z"
                                               },
                                               {
                                                   "path":  "aza\\llm\\server_args.py",
@@ -37,10 +201,6 @@
                                                   "modified_at":  "2026-07-12T14:41:40.2005388Z"
                                               },
                                               {
-                                                  "path":  ".gitignore",
-                                                  "modified_at":  "2026-07-12T14:41:38.7456581Z"
-                                              },
-                                              {
                                                   "path":  "tests\\test_retrieval_relevance.py",
                                                   "modified_at":  "2026-07-12T00:45:04.5876451Z"
                                               },
@@ -49,32 +209,8 @@
                                                   "modified_at":  "2026-07-12T00:44:55.8441523Z"
                                               },
                                               {
-                                                  "path":  "docs\\gouden_vragen_09.jsonl",
-                                                  "modified_at":  "2026-07-12T00:43:16.0741650Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\answer\\evidence.py",
-                                                  "modified_at":  "2026-07-12T00:43:16.0731649Z"
-                                              },
-                                              {
                                                   "path":  "aza\\retrieve\\__init__.py",
                                                   "modified_at":  "2026-07-12T00:43:16.0731649Z"
-                                              },
-                                              {
-                                                  "path":  "MINI_USER_MANUAL.md",
-                                                  "modified_at":  "2026-07-12T00:41:51.7453664Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-12T00:41:51.7443241Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\answer\\candidate_selector.py",
-                                                  "modified_at":  "2026-07-12T00:40:30.3150850Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\evaluation\\golden_run.py",
-                                                  "modified_at":  "2026-07-12T00:39:19.6121972Z"
                                               },
                                               {
                                                   "path":  "aza\\answer\\value_extract.py",
@@ -83,142 +219,6 @@
                                               {
                                                   "path":  "tests\\test_value_extract.py",
                                                   "modified_at":  "2026-07-12T00:38:37.1329024Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_hellingbaan_value_regression.py",
-                                                  "modified_at":  "2026-07-12T00:32:56.9529434Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_golden_evaluation.py",
-                                                  "modified_at":  "2026-07-12T00:30:41.1922140Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_tiered_retrieval.py",
-                                                  "modified_at":  "2026-07-12T00:30:40.1137483Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\cli\\main.py",
-                                                  "modified_at":  "2026-07-12T00:30:15.6189007Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\evaluation\\__init__.py",
-                                                  "modified_at":  "2026-07-12T00:28:52.2351619Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\evaluation\\question_run.py",
-                                                  "modified_at":  "2026-07-12T00:27:54.3373223Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_candidate_selector.py",
-                                                  "modified_at":  "2026-07-12T00:26:53.5227916Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_evidence_units.py",
-                                                  "modified_at":  "2026-07-12T00:26:53.5216933Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_retrieval_query_plan.py",
-                                                  "modified_at":  "2026-07-12T00:26:53.5202883Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\answer\\evidence_units.py",
-                                                  "modified_at":  "2026-07-12T00:23:50.1120623Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\retrieve\\lexical.py",
-                                                  "modified_at":  "2026-07-12T00:21:03.6510530Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\retrieve\\query_plan.py",
-                                                  "modified_at":  "2026-07-12T00:21:03.6500543Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\retrieve\\tiered.py",
-                                                  "modified_at":  "2026-07-12T00:21:03.6500543Z"
-                                              },
-                                              {
-                                                  "path":  "impl_plan_09.md",
-                                                  "modified_at":  "2026-07-12T00:16:37.7852828Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\terminologie_regressie_10_vragen.md",
-                                                  "modified_at":  "2026-07-10T23:43:16.4707185Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\question\\terminology_catalog.py",
-                                                  "modified_at":  "2026-07-10T23:40:28.2402196Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_terminology_expansion.py",
-                                                  "modified_at":  "2026-07-10T23:40:09.2161445Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_wc_toiletruimte_regression.py",
-                                                  "modified_at":  "2026-07-10T23:19:42.1667864Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_rerank_terminology.py",
-                                                  "modified_at":  "2026-07-10T23:19:21.1215531Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_query_builder_terminology.py",
-                                                  "modified_at":  "2026-07-10T23:19:21.1205548Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\answer\\select.py",
-                                                  "modified_at":  "2026-07-10T23:18:58.7443175Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\retrieve\\rerank.py",
-                                                  "modified_at":  "2026-07-10T23:18:01.5959037Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\query_builder.py",
-                                                  "modified_at":  "2026-07-10T23:17:49.5220792Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\prompts.py",
-                                                  "modified_at":  "2026-07-10T23:17:39.1614981Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\intent_postprocess.py",
-                                                  "modified_at":  "2026-07-10T23:17:28.1924736Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\schema.py",
-                                                  "modified_at":  "2026-07-10T23:17:15.1999621Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\question\\terminology.py",
-                                                  "modified_at":  "2026-07-10T23:17:02.0995767Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\question\\terminology_expansion.py",
-                                                  "modified_at":  "2026-07-10T23:16:52.4985285Z"
-                                              },
-                                              {
-                                                  "path":  "impl_plan_08.md",
-                                                  "modified_at":  "2026-07-10T23:08:32.7804935Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_llama_server_args.py",
-                                                  "modified_at":  "2026-07-10T22:34:41.0618815Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_intent_cache.py",
-                                                  "modified_at":  "2026-07-10T22:34:26.2764113Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\intent_benchmark.py",
-                                                  "modified_at":  "2026-07-10T22:34:13.4714531Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\model_benchmark.py",
-                                                  "modified_at":  "2026-07-10T22:34:04.9040554Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\llamacpp_server.py",
-                                                  "modified_at":  "2026-07-10T22:33:55.3420430Z"
                                               }
                                           ],
                          "warning":  null
