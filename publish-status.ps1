@@ -7,7 +7,25 @@ $ErrorActionPreference = 'Stop'
 $RepositoryRoot = $PSScriptRoot
 $ConfigurationPath = Join-Path $RepositoryRoot 'projects.local.json'
 $StatusDirectory = Join-Path $RepositoryRoot 'status'
+$LogDirectory = Join-Path $RepositoryRoot 'logs'
+$LogPath = Join-Path $LogDirectory 'publisher.log'
 $Git = 'C:\Program Files\Git\cmd\git.exe'
+
+New-Item -ItemType Directory -Path $LogDirectory -Force | Out-Null
+
+function Write-PublisherError {
+    param([System.Management.Automation.ErrorRecord]$ErrorRecord)
+
+    $timestamp = (Get-Date).ToString('o')
+    $details = ($ErrorRecord | Out-String).Trim()
+    $entry = "[{0}] ERROR{1}{2}{1}" -f $timestamp, [Environment]::NewLine, $details
+    Add-Content -LiteralPath $LogPath -Value $entry
+}
+
+trap {
+    Write-PublisherError -ErrorRecord $_
+    exit 1
+}
 
 if (-not (Test-Path -LiteralPath $Git)) {
     throw "Git was not found at $Git. Install Git for Windows before publishing status."
@@ -52,11 +70,25 @@ function Invoke-GitText {
         [string[]]$Arguments
     )
 
-    $result = & $Git -c "safe.directory=$ProjectPath" -C $ProjectPath @Arguments 2>&1
-    if ($LASTEXITCODE -ne 0) {
-        throw "Git command failed in ${ProjectPath}: $($result -join [Environment]::NewLine)"
+    # Git can write a non-fatal warning to stderr (for example, an inaccessible
+    # ignored test-temp directory) while still exiting successfully. Capturing
+    # stderr with 2>&1 makes Windows PowerShell turn that warning into a
+    # terminating NativeCommandError because ErrorActionPreference is Stop.
+    $stderrPath = [IO.Path]::GetTempFileName()
+    try {
+        $result = @(& $Git -c "safe.directory=$ProjectPath" -C $ProjectPath @Arguments 2> $stderrPath)
+        $exitCode = $LASTEXITCODE
+        $stderr = @(Get-Content -LiteralPath $stderrPath -ErrorAction SilentlyContinue)
     }
-    return ($result -join "`n").Trim()
+    finally {
+        Remove-Item -LiteralPath $stderrPath -Force -ErrorAction SilentlyContinue
+    }
+
+    if ($exitCode -ne 0) {
+        $details = @($result) + @($stderr)
+        throw "Git command failed in ${ProjectPath}: $($details -join [Environment]::NewLine)"
+    }
+    return ($result -join [Environment]::NewLine).Trim()
 }
 
 function Get-DetectedProjects {
