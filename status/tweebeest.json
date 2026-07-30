@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T14:07:59.4358562Z",
+    "generated_at":  "2026-07-30T14:12:58.2587242Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,61 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T14:07:50.6506186Z",
+                         "last_meaningful_change_at":  "2026-07-30T14:08:25.2299715Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  ".gitignore",
+                                                  "modified_at":  "2026-07-30T14:08:25.2299715Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\review-event.example.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5564845Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\draft-record.example.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5554090Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\generation-run.example.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5543415Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\job-record.example.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5521947Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\asset-record.example.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5505783Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\review-event.schema.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5494971Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\draft-record.schema.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5484370Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\generation-run.schema.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5473660Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\job-record.schema.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5457545Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\asset-record.schema.json",
+                                                  "modified_at":  "2026-07-30T14:08:09.5441722Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\models.py",
+                                                  "modified_at":  "2026-07-30T14:08:03.5874307Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_models.py",
                                                   "modified_at":  "2026-07-30T14:07:50.6506186Z"
@@ -331,10 +379,6 @@
                                               {
                                                   "path":  "src\\contentbot\\presets.py",
                                                   "modified_at":  "2026-07-30T14:05:42.0419823Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\models.py",
-                                                  "modified_at":  "2026-07-30T14:05:40.8891829Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\serialization.py",
