@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T15:49:01.3277338Z",
+    "generated_at":  "2026-07-30T15:54:10.4292945Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T15:48:08.2177281Z",
+                         "last_meaningful_change_at":  "2026-07-30T15:50:17.9405031Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -297,8 +297,36 @@
                                   },
                          "recent_files":  [
                                               {
+                                                  "path":  "tests\\test_vertical_slice.py",
+                                                  "modified_at":  "2026-07-30T15:50:17.9405031Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\normalization.py",
+                                                  "modified_at":  "2026-07-30T15:50:16.3186932Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\prompting.py",
+                                                  "modified_at":  "2026-07-30T15:50:14.8669501Z"
+                                              },
+                                              {
+                                                  "path":  "data\\smoke\\drafts\\draft_1025391b1da148d19811dbd8.json",
+                                                  "modified_at":  "2026-07-30T15:49:38.1707146Z"
+                                              },
+                                              {
+                                                  "path":  "data\\smoke\\reviews\\review_82535b2c25144f08ac901c9f.json",
+                                                  "modified_at":  "2026-07-30T15:49:38.1323914Z"
+                                              },
+                                              {
                                                   "path":  "data\\smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
-                                                  "modified_at":  "2026-07-30T15:48:08.2177281Z"
+                                                  "modified_at":  "2026-07-30T15:49:18.3607307Z"
+                                              },
+                                              {
+                                                  "path":  "data\\smoke\\runs\\run_cf8374309c4640298718be67.json",
+                                                  "modified_at":  "2026-07-30T15:49:18.3521677Z"
+                                              },
+                                              {
+                                                  "path":  "data\\smoke\\raw\\run_cf8374309c4640298718be67.json",
+                                                  "modified_at":  "2026-07-30T15:49:18.3468056Z"
                                               },
                                               {
                                                   "path":  "data\\smoke\\assets\\asset_a37491a5e479e191cfe547b4.json",
@@ -357,10 +385,6 @@
                                                   "modified_at":  "2026-07-30T15:33:25.4729226Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_vertical_slice.py",
-                                                  "modified_at":  "2026-07-30T15:28:29.0415638Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\pipeline.py",
                                                   "modified_at":  "2026-07-30T15:28:27.7151380Z"
                                               },
@@ -377,16 +401,8 @@
                                                   "modified_at":  "2026-07-30T15:26:57.3356883Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\normalization.py",
-                                                  "modified_at":  "2026-07-30T15:25:46.7842830Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\llama_client.py",
                                                   "modified_at":  "2026-07-30T15:25:45.5665341Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\prompting.py",
-                                                  "modified_at":  "2026-07-30T15:25:44.4844840Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\intake.py",
