@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T15:29:47.5624129Z",
+    "generated_at":  "2026-07-30T15:34:48.2626981Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,57 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T15:28:29.0415638Z",
+                         "last_meaningful_change_at":  "2026-07-30T15:33:29.9882833Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "examples\\review-event.example.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9882833Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\draft-record.example.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9877496Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\generation-run.example.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9872206Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\job-record.example.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9861708Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\asset-record.example.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9856288Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\review-event.schema.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9850944Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\draft-record.schema.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9845660Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\generation-run.schema.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9835184Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\job-record.schema.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9829908Z"
+                                              },
+                                              {
+                                                  "path":  "schemas\\asset-record.schema.json",
+                                                  "modified_at":  "2026-07-30T15:33:29.9824709Z"
+                                              },
+                                              {
+                                                  "path":  "scripts\\export_contracts.py",
+                                                  "modified_at":  "2026-07-30T15:33:25.4729226Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_vertical_slice.py",
                                                   "modified_at":  "2026-07-30T15:28:29.0415638Z"
@@ -349,56 +393,12 @@
                                                   "modified_at":  "2026-07-30T14:08:25.2299715Z"
                                               },
                                               {
-                                                  "path":  "examples\\review-event.example.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5564845Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\draft-record.example.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5554090Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\generation-run.example.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5543415Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\job-record.example.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5521947Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\asset-record.example.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5505783Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\review-event.schema.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5494971Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\draft-record.schema.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5484370Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\generation-run.schema.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5473660Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\job-record.schema.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5457545Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\asset-record.schema.json",
-                                                  "modified_at":  "2026-07-30T14:08:09.5441722Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\models.py",
                                                   "modified_at":  "2026-07-30T14:08:03.5874307Z"
                                               },
                                               {
                                                   "path":  "tests\\test_models.py",
                                                   "modified_at":  "2026-07-30T14:07:50.6506186Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\export_contracts.py",
-                                                  "modified_at":  "2026-07-30T14:07:48.5801611Z"
                                               },
                                               {
                                                   "path":  "docs\\data-contract.md",
