@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T15:28:01.1966007Z",
+    "generated_at":  "2026-07-30T15:29:47.5624129Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T15:27:48.7371738Z",
+                         "last_meaningful_change_at":  "2026-07-30T15:28:29.0415638Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -297,12 +297,16 @@
                                   },
                          "recent_files":  [
                                               {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-30T15:27:48.7371738Z"
+                                                  "path":  "tests\\test_vertical_slice.py",
+                                                  "modified_at":  "2026-07-30T15:28:29.0415638Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_vertical_slice.py",
-                                                  "modified_at":  "2026-07-30T15:27:47.5039405Z"
+                                                  "path":  "src\\contentbot\\pipeline.py",
+                                                  "modified_at":  "2026-07-30T15:28:27.7151380Z"
+                                              },
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-30T15:27:48.7371738Z"
                                               },
                                               {
                                                   "path":  "scripts\\start_qwen3_vl_4b_cpu.ps1",
@@ -319,10 +323,6 @@
                                               {
                                                   "path":  "src\\contentbot\\review.py",
                                                   "modified_at":  "2026-07-30T15:26:57.3356883Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\pipeline.py",
-                                                  "modified_at":  "2026-07-30T15:26:56.1418339Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\normalization.py",
