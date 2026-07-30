@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T14:12:58.2587242Z",
+    "generated_at":  "2026-07-30T15:28:01.1966007Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,61 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T14:08:25.2299715Z",
+                         "last_meaningful_change_at":  "2026-07-30T15:27:48.7371738Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-30T15:27:48.7371738Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_vertical_slice.py",
+                                                  "modified_at":  "2026-07-30T15:27:47.5039405Z"
+                                              },
+                                              {
+                                                  "path":  "scripts\\start_qwen3_vl_4b_cpu.ps1",
+                                                  "modified_at":  "2026-07-30T15:27:01.4161690Z"
+                                              },
+                                              {
+                                                  "path":  "config\\models.json",
+                                                  "modified_at":  "2026-07-30T15:27:00.3167740Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\__main__.py",
+                                                  "modified_at":  "2026-07-30T15:26:58.4981107Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\review.py",
+                                                  "modified_at":  "2026-07-30T15:26:57.3356883Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\pipeline.py",
+                                                  "modified_at":  "2026-07-30T15:26:56.1418339Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\normalization.py",
+                                                  "modified_at":  "2026-07-30T15:25:46.7842830Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\llama_client.py",
+                                                  "modified_at":  "2026-07-30T15:25:45.5665341Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\prompting.py",
+                                                  "modified_at":  "2026-07-30T15:25:44.4844840Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\intake.py",
+                                                  "modified_at":  "2026-07-30T15:25:43.3936195Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\storage.py",
+                                                  "modified_at":  "2026-07-30T15:25:42.2428995Z"
+                                              },
                                               {
                                                   "path":  ".gitignore",
                                                   "modified_at":  "2026-07-30T14:08:25.2299715Z"
@@ -395,10 +443,6 @@
                                               {
                                                   "path":  "src\\contentbot\\__init__.py",
                                                   "modified_at":  "2026-07-30T14:05:36.3439126Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-30T14:05:34.4756489Z"
                                               },
                                               {
                                                   "path":  "pyproject.toml",
