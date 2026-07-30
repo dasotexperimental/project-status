@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T15:34:48.2626981Z",
+    "generated_at":  "2026-07-30T15:45:08.7933591Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T15:33:29.9882833Z",
+                         "last_meaningful_change_at":  "2026-07-30T15:41:03.2846973Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
+                                                  "modified_at":  "2026-07-30T15:41:03.2846973Z"
+                                              },
+                                              {
+                                                  "path":  "data\\smoke\\assets\\asset_a37491a5e479e191cfe547b4.json",
+                                                  "modified_at":  "2026-07-30T15:41:03.2706633Z"
+                                              },
                                               {
                                                   "path":  "examples\\review-event.example.json",
                                                   "modified_at":  "2026-07-30T15:33:29.9882833Z"
