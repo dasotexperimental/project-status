@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-14T22:33:09.1085561Z",
+    "generated_at":  "2026-07-30T14:07:59.4358562Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -281,6 +281,84 @@
                                               {
                                                   "path":  "calculator\\engine.py",
                                                   "modified_at":  "2026-02-14T21:59:25.7523290Z"
+                                              }
+                                          ],
+                         "warning":  "No Git repository detected; reporting filesystem activity only."
+                     },
+                     {
+                         "id":  "contentbot",
+                         "display_name":  "ContentBot",
+                         "state":  "unversioned",
+                         "last_meaningful_change_at":  "2026-07-30T14:07:50.6506186Z",
+                         "git":  null,
+                         "sync":  {
+                                      "state":  "not_configured",
+                                      "detail":  "Syncthing/NAS synchronization has not been configured yet."
+                                  },
+                         "recent_files":  [
+                                              {
+                                                  "path":  "tests\\test_models.py",
+                                                  "modified_at":  "2026-07-30T14:07:50.6506186Z"
+                                              },
+                                              {
+                                                  "path":  "scripts\\export_contracts.py",
+                                                  "modified_at":  "2026-07-30T14:07:48.5801611Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\data-contract.md",
+                                                  "modified_at":  "2026-07-30T14:07:46.6115227Z"
+                                              },
+                                              {
+                                                  "path":  "presets\\community-question.v1.json",
+                                                  "modified_at":  "2026-07-30T14:07:44.7434797Z"
+                                              },
+                                              {
+                                                  "path":  "presets\\offer-urgency.v1.json",
+                                                  "modified_at":  "2026-07-30T14:07:43.6367808Z"
+                                              },
+                                              {
+                                                  "path":  "presets\\educational.v1.json",
+                                                  "modified_at":  "2026-07-30T14:07:42.5231780Z"
+                                              },
+                                              {
+                                                  "path":  "presets\\story-led.v1.json",
+                                                  "modified_at":  "2026-07-30T14:07:41.3655051Z"
+                                              },
+                                              {
+                                                  "path":  "presets\\benefit-led.v1.json",
+                                                  "modified_at":  "2026-07-30T14:07:40.1400108Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\presets.py",
+                                                  "modified_at":  "2026-07-30T14:05:42.0419823Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\models.py",
+                                                  "modified_at":  "2026-07-30T14:05:40.8891829Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\serialization.py",
+                                                  "modified_at":  "2026-07-30T14:05:39.7653855Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\validation.py",
+                                                  "modified_at":  "2026-07-30T14:05:38.6223769Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\enums.py",
+                                                  "modified_at":  "2026-07-30T14:05:37.4833545Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\__init__.py",
+                                                  "modified_at":  "2026-07-30T14:05:36.3439126Z"
+                                              },
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-30T14:05:34.4756489Z"
+                                              },
+                                              {
+                                                  "path":  "pyproject.toml",
+                                                  "modified_at":  "2026-07-30T14:05:33.0713511Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
