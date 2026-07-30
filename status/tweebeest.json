@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T15:45:08.7933591Z",
+    "generated_at":  "2026-07-30T15:49:01.3277338Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T15:41:03.2846973Z",
+                         "last_meaningful_change_at":  "2026-07-30T15:48:08.2177281Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -298,11 +298,19 @@
                          "recent_files":  [
                                               {
                                                   "path":  "data\\smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
-                                                  "modified_at":  "2026-07-30T15:41:03.2846973Z"
+                                                  "modified_at":  "2026-07-30T15:48:08.2177281Z"
                                               },
                                               {
                                                   "path":  "data\\smoke\\assets\\asset_a37491a5e479e191cfe547b4.json",
-                                                  "modified_at":  "2026-07-30T15:41:03.2706633Z"
+                                                  "modified_at":  "2026-07-30T15:48:08.2069936Z"
+                                              },
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-30T15:47:20.4026630Z"
+                                              },
+                                              {
+                                                  "path":  "scripts\\start_qwen3_vl_4b_cpu.ps1",
+                                                  "modified_at":  "2026-07-30T15:47:18.8426492Z"
                                               },
                                               {
                                                   "path":  "examples\\review-event.example.json",
@@ -355,14 +363,6 @@
                                               {
                                                   "path":  "src\\contentbot\\pipeline.py",
                                                   "modified_at":  "2026-07-30T15:28:27.7151380Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-30T15:27:48.7371738Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\start_qwen3_vl_4b_cpu.ps1",
-                                                  "modified_at":  "2026-07-30T15:27:01.4161690Z"
                                               },
                                               {
                                                   "path":  "config\\models.json",
