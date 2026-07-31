@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:28:10.1718810Z",
+    "generated_at":  "2026-07-31T15:29:50.3233916Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:28:06.2693989Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:29:30.1286391Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\webapp.py",
+                                                  "modified_at":  "2026-07-31T15:29:30.1286391Z"
+                                              },
+                                              {
+                                                  "path":  "config\\models.json",
+                                                  "modified_at":  "2026-07-31T15:28:24.6679218Z"
+                                              },
                                               {
                                                   "path":  "src\\contentbot\\model_process.py",
                                                   "modified_at":  "2026-07-31T15:28:06.2693989Z"
@@ -339,10 +347,6 @@
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\app.js",
                                                   "modified_at":  "2026-07-31T14:40:28.8625417Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\webapp.py",
-                                                  "modified_at":  "2026-07-31T14:37:22.6188010Z"
                                               },
                                               {
                                                   "path":  "data\\jobs\\job_97df37ad8449846bb68bd048.json",
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "src\\contentbot\\models.py",
                                                   "modified_at":  "2026-07-31T10:29:03.9689737Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\start_qwen3_vl_4b_vulkan.ps1",
-                                                  "modified_at":  "2026-07-31T09:05:11.9724064Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
