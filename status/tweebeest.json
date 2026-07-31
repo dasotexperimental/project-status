@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T10:37:55.6493144Z",
+    "generated_at":  "2026-07-31T10:39:46.9532550Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,25 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T10:37:33.3130301Z",
+                         "last_meaningful_change_at":  "2026-07-31T10:38:36.4620144Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "docs\\ui-functional-spec.md",
+                                                  "modified_at":  "2026-07-31T10:38:36.4620144Z"
+                                              },
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-31T10:38:35.3518097Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\__main__.py",
+                                                  "modified_at":  "2026-07-31T10:38:34.2459099Z"
+                                              },
                                               {
                                                   "path":  "data\\batch-ui-smoke\\settings\\setting_1fe289205936c3fdb6115822.json",
                                                   "modified_at":  "2026-07-31T10:37:33.3130301Z"
@@ -307,14 +319,6 @@
                                               {
                                                   "path":  "docs\\ui-design-handoff.md",
                                                   "modified_at":  "2026-07-31T10:35:57.0368443Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\ui-functional-spec.md",
-                                                  "modified_at":  "2026-07-31T10:35:39.2009961Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-31T10:35:38.0723457Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\analysis.py",
@@ -343,10 +347,6 @@
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\index.html",
                                                   "modified_at":  "2026-07-31T10:32:01.9368228Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\__main__.py",
-                                                  "modified_at":  "2026-07-31T10:31:26.2968597Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\webapp.py",
