@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:33:02.6173447Z",
+    "generated_at":  "2026-07-31T15:34:55.9901733Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,17 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:32:22.2793652Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:33:24.6025421Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
+                                                  "modified_at":  "2026-07-31T15:33:24.6025421Z"
+                                              },
                                               {
                                                   "path":  "data\\model-verification.png",
                                                   "modified_at":  "2026-07-31T15:32:22.2793652Z"
@@ -339,10 +343,6 @@
                                               {
                                                   "path":  "data\\uploads\\b2ce6e44822d47abbcc00de9b3eaeece.png",
                                                   "modified_at":  "2026-07-31T14:59:46.6235687Z"
-                                              },
-                                              {
-                                                  "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
-                                                  "modified_at":  "2026-07-31T14:52:15.3247460Z"
                                               },
                                               {
                                                   "path":  "README.md",
