@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T10:32:55.0668974Z",
+    "generated_at":  "2026-07-31T10:34:47.6055461Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T10:32:47.4351857Z",
+                         "last_meaningful_change_at":  "2026-07-31T10:34:31.7602290Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -297,8 +297,20 @@
                                   },
                          "recent_files":  [
                                               {
+                                                  "path":  "tests\\test_webapp.py",
+                                                  "modified_at":  "2026-07-31T10:34:31.7602290Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_batch.py",
+                                                  "modified_at":  "2026-07-31T10:34:30.6447881Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\styles.css",
+                                                  "modified_at":  "2026-07-31T10:33:28.0814557Z"
+                                              },
+                                              {
                                                   "path":  "src\\contentbot\\web\\static\\app.js",
-                                                  "modified_at":  "2026-07-31T10:32:47.4351857Z"
+                                                  "modified_at":  "2026-07-31T10:33:19.6107404Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\index.html",
@@ -363,14 +375,6 @@
                                               {
                                                   "path":  "scripts\\start_qwen3_vl_4b_vulkan.ps1",
                                                   "modified_at":  "2026-07-31T09:05:11.9724064Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_webapp.py",
-                                                  "modified_at":  "2026-07-31T09:04:41.2824782Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\styles.css",
-                                                  "modified_at":  "2026-07-31T09:02:51.9001278Z"
                                               },
                                               {
                                                   "path":  "docs\\ui-functional-spec.md",
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  ".gitignore",
                                                   "modified_at":  "2026-07-30T14:08:25.2299715Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_models.py",
-                                                  "modified_at":  "2026-07-30T14:07:50.6506186Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
