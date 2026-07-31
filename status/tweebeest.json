@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:52:59.4908628Z",
+    "generated_at":  "2026-07-31T15:02:13.2497422Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,25 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:52:15.3247460Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:59:46.6610355Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\jobs\\job_90d4032b1a5b881c9c431fb5.json",
+                                                  "modified_at":  "2026-07-31T14:59:46.6610355Z"
+                                              },
+                                              {
+                                                  "path":  "data\\assets\\asset_387b55757a2110348bdfa6c6.json",
+                                                  "modified_at":  "2026-07-31T14:59:46.6560981Z"
+                                              },
+                                              {
+                                                  "path":  "data\\uploads\\b2ce6e44822d47abbcc00de9b3eaeece.png",
+                                                  "modified_at":  "2026-07-31T14:59:46.6235687Z"
+                                              },
                                               {
                                                   "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
                                                   "modified_at":  "2026-07-31T14:52:15.3247460Z"
@@ -483,18 +495,6 @@
                                               {
                                                   "path":  "scripts\\start_qwen3_vl_4b_vulkan.ps1",
                                                   "modified_at":  "2026-07-31T09:05:11.9724064Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\review.py",
-                                                  "modified_at":  "2026-07-31T08:56:22.2452282Z"
-                                              },
-                                              {
-                                                  "path":  "data\\gpu-smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
-                                                  "modified_at":  "2026-07-31T07:55:57.9169700Z"
-                                              },
-                                              {
-                                                  "path":  "data\\gpu-smoke\\drafts\\draft_cc82683790b541bfb3f47243.json",
-                                                  "modified_at":  "2026-07-31T07:55:57.9142587Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
