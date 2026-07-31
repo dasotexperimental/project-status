@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:44:52.6255819Z",
+    "generated_at":  "2026-07-31T14:47:13.4735412Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,17 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:44:36.4182134Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:44:48.8129188Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-31T14:44:48.8129188Z"
+                                              },
                                               {
                                                   "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
                                                   "modified_at":  "2026-07-31T14:44:36.4182134Z"
@@ -399,10 +403,6 @@
                                               {
                                                   "path":  "data\\assets\\asset_374da02dfa250f594b74cf6d.json",
                                                   "modified_at":  "2026-07-31T14:02:14.4627409Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-31T13:44:45.3204686Z"
                                               },
                                               {
                                                   "path":  "scripts\\start_ui.ps1",
