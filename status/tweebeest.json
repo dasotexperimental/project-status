@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T13:17:11.3196650Z",
+    "generated_at":  "2026-07-31T13:19:47.7988898Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T13:15:56.9198130Z",
+                         "last_meaningful_change_at":  "2026-07-31T13:19:06.2936087Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -297,12 +297,12 @@
                                   },
                          "recent_files":  [
                                               {
-                                                  "path":  "tests\\test_webapp.py",
-                                                  "modified_at":  "2026-07-31T13:15:56.9198130Z"
+                                                  "path":  "src\\contentbot\\web\\static\\app.js",
+                                                  "modified_at":  "2026-07-31T13:19:06.2936087Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\web\\static\\app.js",
-                                                  "modified_at":  "2026-07-31T13:15:01.0765610Z"
+                                                  "path":  "tests\\test_webapp.py",
+                                                  "modified_at":  "2026-07-31T13:15:56.9198130Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\index.html",
