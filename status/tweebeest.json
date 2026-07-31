@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:44:51.8170904Z",
+    "generated_at":  "2026-07-31T16:43:04.8622150Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,25 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:43:35.0639454Z",
+                         "last_meaningful_change_at":  "2026-07-31T16:42:07.8104489Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\jobs\\job_802f7e2faa20e8992f04bc07.json",
+                                                  "modified_at":  "2026-07-31T16:42:07.8104489Z"
+                                              },
+                                              {
+                                                  "path":  "data\\assets\\asset_0786ce03266efaf3ca789ea0.json",
+                                                  "modified_at":  "2026-07-31T16:42:07.8050842Z"
+                                              },
+                                              {
+                                                  "path":  "data\\uploads\\0b1e9cfd4d4f4827a3703814963e0f90.jpg",
+                                                  "modified_at":  "2026-07-31T16:42:07.7869066Z"
+                                              },
                                               {
                                                   "path":  "README.md",
                                                   "modified_at":  "2026-07-31T15:43:35.0639454Z"
@@ -483,18 +495,6 @@
                                               {
                                                   "path":  "data\\batch-ui-smoke\\settings\\setting_1fe289205936c3fdb6115822.json",
                                                   "modified_at":  "2026-07-31T10:37:33.3130301Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\data-contract.md",
-                                                  "modified_at":  "2026-07-31T10:36:10.6090589Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\ui-design-handoff.md",
-                                                  "modified_at":  "2026-07-31T10:35:57.0368443Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\analysis.py",
-                                                  "modified_at":  "2026-07-31T10:34:56.5376731Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
