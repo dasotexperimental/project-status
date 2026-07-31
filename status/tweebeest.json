@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T13:44:51.6868317Z",
+    "generated_at":  "2026-07-31T14:03:06.6978909Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T13:44:45.3204686Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:02:14.4687616Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\jobs\\job_f4c587f02af331ce4ad4f644.json",
+                                                  "modified_at":  "2026-07-31T14:02:14.4687616Z"
+                                              },
+                                              {
+                                                  "path":  "data\\assets\\asset_374da02dfa250f594b74cf6d.json",
+                                                  "modified_at":  "2026-07-31T14:02:14.4627409Z"
+                                              },
                                               {
                                                   "path":  "README.md",
                                                   "modified_at":  "2026-07-31T13:44:45.3204686Z"
@@ -487,14 +495,6 @@
                                               {
                                                   "path":  "schemas\\draft-record.schema.json",
                                                   "modified_at":  "2026-07-30T15:33:29.9845660Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\generation-run.schema.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9835184Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\job-record.schema.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9829908Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
