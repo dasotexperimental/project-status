@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T09:07:08.9113113Z",
+    "generated_at":  "2026-07-31T09:09:50.5627132Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,17 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T09:05:14.2807224Z",
+                         "last_meaningful_change_at":  "2026-07-31T09:08:56.5451717Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\app.js",
+                                                  "modified_at":  "2026-07-31T09:08:56.5451717Z"
+                                              },
                                               {
                                                   "path":  "README.md",
                                                   "modified_at":  "2026-07-31T09:05:14.2807224Z"
@@ -311,10 +315,6 @@
                                               {
                                                   "path":  "tests\\test_webapp.py",
                                                   "modified_at":  "2026-07-31T09:04:41.2824782Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\app.js",
-                                                  "modified_at":  "2026-07-31T09:04:40.0531222Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\index.html",
