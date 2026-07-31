@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T10:34:47.6055461Z",
+    "generated_at":  "2026-07-31T10:37:08.9209235Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,37 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T10:34:31.7602290Z",
+                         "last_meaningful_change_at":  "2026-07-31T10:36:10.6090589Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "docs\\data-contract.md",
+                                                  "modified_at":  "2026-07-31T10:36:10.6090589Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\ui-design-handoff.md",
+                                                  "modified_at":  "2026-07-31T10:35:57.0368443Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\ui-functional-spec.md",
+                                                  "modified_at":  "2026-07-31T10:35:39.2009961Z"
+                                              },
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-31T10:35:38.0723457Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\analysis.py",
+                                                  "modified_at":  "2026-07-31T10:34:56.5376731Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\storage.py",
+                                                  "modified_at":  "2026-07-31T10:34:55.4238166Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_webapp.py",
                                                   "modified_at":  "2026-07-31T10:34:31.7602290Z"
@@ -345,10 +369,6 @@
                                                   "modified_at":  "2026-07-31T10:29:57.2311710Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\analysis.py",
-                                                  "modified_at":  "2026-07-31T10:29:46.3577915Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\llama_client.py",
                                                   "modified_at":  "2026-07-31T10:29:45.1649221Z"
                                               },
@@ -357,28 +377,12 @@
                                                   "modified_at":  "2026-07-31T10:29:03.9689737Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\storage.py",
-                                                  "modified_at":  "2026-07-31T10:29:02.8846374Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\ui-design-handoff.md",
-                                                  "modified_at":  "2026-07-31T09:11:24.4104724Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-31T09:05:14.2807224Z"
-                                              },
-                                              {
                                                   "path":  "scripts\\start_ui.ps1",
                                                   "modified_at":  "2026-07-31T09:05:13.1333765Z"
                                               },
                                               {
                                                   "path":  "scripts\\start_qwen3_vl_4b_vulkan.ps1",
                                                   "modified_at":  "2026-07-31T09:05:11.9724064Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\ui-functional-spec.md",
-                                                  "modified_at":  "2026-07-31T08:58:00.1748832Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\review.py",
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "src\\contentbot\\intake.py",
                                                   "modified_at":  "2026-07-30T15:25:43.3936195Z"
-                                              },
-                                              {
-                                                  "path":  ".gitignore",
-                                                  "modified_at":  "2026-07-30T14:08:25.2299715Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
