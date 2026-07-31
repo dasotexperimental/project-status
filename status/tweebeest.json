@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T16:43:04.8622150Z",
+    "generated_at":  "2026-07-31T16:44:54.6220525Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T16:42:07.8104489Z",
+                         "last_meaningful_change_at":  "2026-07-31T16:44:37.2862395Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -298,7 +298,31 @@
                          "recent_files":  [
                                               {
                                                   "path":  "data\\jobs\\job_802f7e2faa20e8992f04bc07.json",
-                                                  "modified_at":  "2026-07-31T16:42:07.8104489Z"
+                                                  "modified_at":  "2026-07-31T16:44:37.2862395Z"
+                                              },
+                                              {
+                                                  "path":  "data\\drafts\\draft_b1c2ac8f680f4d1da54ea01e.json",
+                                                  "modified_at":  "2026-07-31T16:44:37.2774937Z"
+                                              },
+                                              {
+                                                  "path":  "data\\runs\\run_7277980a56744700bc9a5efb.json",
+                                                  "modified_at":  "2026-07-31T16:44:37.2726282Z"
+                                              },
+                                              {
+                                                  "path":  "data\\raw\\run_7277980a56744700bc9a5efb.json",
+                                                  "modified_at":  "2026-07-31T16:44:37.2591447Z"
+                                              },
+                                              {
+                                                  "path":  "data\\selections\\selection_ebe944ceb9d7ca3f7314adcc.json",
+                                                  "modified_at":  "2026-07-31T16:43:20.1913691Z"
+                                              },
+                                              {
+                                                  "path":  "data\\analyses\\analysis_802f7e2faa20e8992f04bc07.json",
+                                                  "modified_at":  "2026-07-31T16:43:20.1858261Z"
+                                              },
+                                              {
+                                                  "path":  "data\\raw\\analysis_802f7e2faa20e8992f04bc07.json",
+                                                  "modified_at":  "2026-07-31T16:43:20.1809527Z"
                                               },
                                               {
                                                   "path":  "data\\assets\\asset_0786ce03266efaf3ca789ea0.json",
@@ -471,30 +495,6 @@
                                               {
                                                   "path":  "scripts\\start_ui.ps1",
                                                   "modified_at":  "2026-07-31T13:44:13.8832026Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\launch_contentbot.ps1",
-                                                  "modified_at":  "2026-07-31T13:41:05.7676047Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\index.html",
-                                                  "modified_at":  "2026-07-31T13:39:21.3642967Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\ui-response-diff-handoff.md",
-                                                  "modified_at":  "2026-07-31T12:38:48.1696543Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\ui-functional-spec.md",
-                                                  "modified_at":  "2026-07-31T10:38:36.4620144Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\__main__.py",
-                                                  "modified_at":  "2026-07-31T10:38:34.2459099Z"
-                                              },
-                                              {
-                                                  "path":  "data\\batch-ui-smoke\\settings\\setting_1fe289205936c3fdb6115822.json",
-                                                  "modified_at":  "2026-07-31T10:37:33.3130301Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
