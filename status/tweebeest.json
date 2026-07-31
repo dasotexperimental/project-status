@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T10:39:46.9532550Z",
+    "generated_at":  "2026-07-31T12:39:48.0033154Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,17 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T10:38:36.4620144Z",
+                         "last_meaningful_change_at":  "2026-07-31T12:38:48.1696543Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "docs\\ui-response-diff-handoff.md",
+                                                  "modified_at":  "2026-07-31T12:38:48.1696543Z"
+                                              },
                                               {
                                                   "path":  "docs\\ui-functional-spec.md",
                                                   "modified_at":  "2026-07-31T10:38:36.4620144Z"
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "scripts\\export_contracts.py",
                                                   "modified_at":  "2026-07-30T15:33:25.4729226Z"
-                                              },
-                                              {
-                                                  "path":  "config\\models.json",
-                                                  "modified_at":  "2026-07-30T15:27:00.3167740Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
