@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T09:09:50.5627132Z",
+    "generated_at":  "2026-07-31T09:12:10.9230309Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,17 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T09:08:56.5451717Z",
+                         "last_meaningful_change_at":  "2026-07-31T09:11:24.4104724Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "docs\\ui-design-handoff.md",
+                                                  "modified_at":  "2026-07-31T09:11:24.4104724Z"
+                                              },
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\app.js",
                                                   "modified_at":  "2026-07-31T09:08:56.5451717Z"
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "presets\\offer-urgency.v1.json",
                                                   "modified_at":  "2026-07-30T14:07:43.6367808Z"
-                                              },
-                                              {
-                                                  "path":  "presets\\educational.v1.json",
-                                                  "modified_at":  "2026-07-30T14:07:42.5231780Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
