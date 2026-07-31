@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T07:57:13.5234471Z",
+    "generated_at":  "2026-07-31T08:57:08.7053191Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,29 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T07:55:57.9169700Z",
+                         "last_meaningful_change_at":  "2026-07-31T08:56:22.2452282Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\review.py",
+                                                  "modified_at":  "2026-07-31T08:56:22.2452282Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\pipeline.py",
+                                                  "modified_at":  "2026-07-31T08:56:21.0842456Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\deserialization.py",
+                                                  "modified_at":  "2026-07-31T08:56:19.9361323Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\storage.py",
+                                                  "modified_at":  "2026-07-31T08:56:18.7889295Z"
+                                              },
                                               {
                                                   "path":  "data\\gpu-smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
                                                   "modified_at":  "2026-07-31T07:55:57.9169700Z"
@@ -405,10 +421,6 @@
                                                   "modified_at":  "2026-07-30T15:33:25.4729226Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\pipeline.py",
-                                                  "modified_at":  "2026-07-30T15:28:27.7151380Z"
-                                              },
-                                              {
                                                   "path":  "config\\models.json",
                                                   "modified_at":  "2026-07-30T15:27:00.3167740Z"
                                               },
@@ -417,20 +429,12 @@
                                                   "modified_at":  "2026-07-30T15:26:58.4981107Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\review.py",
-                                                  "modified_at":  "2026-07-30T15:26:57.3356883Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\llama_client.py",
                                                   "modified_at":  "2026-07-30T15:25:45.5665341Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\intake.py",
                                                   "modified_at":  "2026-07-30T15:25:43.3936195Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\storage.py",
-                                                  "modified_at":  "2026-07-30T15:25:42.2428995Z"
                                               },
                                               {
                                                   "path":  ".gitignore",
