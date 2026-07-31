@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-30T15:54:10.4292945Z",
+    "generated_at":  "2026-07-31T07:57:13.5234471Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,33 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-30T15:50:17.9405031Z",
+                         "last_meaningful_change_at":  "2026-07-31T07:55:57.9169700Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\gpu-smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
+                                                  "modified_at":  "2026-07-31T07:55:57.9169700Z"
+                                              },
+                                              {
+                                                  "path":  "data\\gpu-smoke\\drafts\\draft_cc82683790b541bfb3f47243.json",
+                                                  "modified_at":  "2026-07-31T07:55:57.9142587Z"
+                                              },
+                                              {
+                                                  "path":  "data\\gpu-smoke\\runs\\run_a0370161e2b24848b848e362.json",
+                                                  "modified_at":  "2026-07-31T07:55:57.9104277Z"
+                                              },
+                                              {
+                                                  "path":  "data\\gpu-smoke\\raw\\run_a0370161e2b24848b848e362.json",
+                                                  "modified_at":  "2026-07-31T07:55:57.9049859Z"
+                                              },
+                                              {
+                                                  "path":  "data\\gpu-smoke\\assets\\asset_a37491a5e479e191cfe547b4.json",
+                                                  "modified_at":  "2026-07-31T07:55:03.9492269Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_vertical_slice.py",
                                                   "modified_at":  "2026-07-30T15:50:17.9405031Z"
