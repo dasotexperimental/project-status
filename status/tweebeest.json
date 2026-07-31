@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:43:03.6653030Z",
+    "generated_at":  "2026-07-31T15:44:51.8170904Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:42:08.8422584Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:43:35.0639454Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -297,8 +297,24 @@
                                   },
                          "recent_files":  [
                                               {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-31T15:43:35.0639454Z"
+                                              },
+                                              {
                                                   "path":  "data\\jobs\\job_90d4032b1a5b881c9c431fb5.json",
-                                                  "modified_at":  "2026-07-31T15:42:08.8422584Z"
+                                                  "modified_at":  "2026-07-31T15:43:23.3883027Z"
+                                              },
+                                              {
+                                                  "path":  "data\\drafts\\draft_fe48c338bdd44fa7897b0eed.json",
+                                                  "modified_at":  "2026-07-31T15:43:23.3844210Z"
+                                              },
+                                              {
+                                                  "path":  "data\\runs\\run_02a6086d511e40efae4b2350.json",
+                                                  "modified_at":  "2026-07-31T15:43:23.3800159Z"
+                                              },
+                                              {
+                                                  "path":  "data\\raw\\run_02a6086d511e40efae4b2350.json",
+                                                  "modified_at":  "2026-07-31T15:43:23.3419302Z"
                                               },
                                               {
                                                   "path":  "data\\drafts\\draft_c45143444e27426fa60ec813.json",
@@ -367,10 +383,6 @@
                                               {
                                                   "path":  "data\\uploads\\b2ce6e44822d47abbcc00de9b3eaeece.png",
                                                   "modified_at":  "2026-07-31T14:59:46.6235687Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-31T14:44:48.8129188Z"
                                               },
                                               {
                                                   "path":  "data\\jobs\\job_97df37ad8449846bb68bd048.json",
@@ -483,18 +495,6 @@
                                               {
                                                   "path":  "src\\contentbot\\analysis.py",
                                                   "modified_at":  "2026-07-31T10:34:56.5376731Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\storage.py",
-                                                  "modified_at":  "2026-07-31T10:34:55.4238166Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_batch.py",
-                                                  "modified_at":  "2026-07-31T10:34:30.6447881Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\validation.py",
-                                                  "modified_at":  "2026-07-31T10:30:45.4248606Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
