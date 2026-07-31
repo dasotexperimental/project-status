@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:42:13.5618874Z",
+    "generated_at":  "2026-07-31T14:44:52.6255819Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:41:23.7076875Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:44:36.4182134Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
+                                                  "modified_at":  "2026-07-31T14:44:36.4182134Z"
+                                              },
+                                              {
+                                                  "path":  "data\\model-verification.png",
+                                                  "modified_at":  "2026-07-31T14:43:59.2254793Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_webapp.py",
                                                   "modified_at":  "2026-07-31T14:41:23.7076875Z"
@@ -487,14 +495,6 @@
                                               {
                                                   "path":  "data\\gpu-smoke\\drafts\\draft_cc82683790b541bfb3f47243.json",
                                                   "modified_at":  "2026-07-31T07:55:57.9142587Z"
-                                              },
-                                              {
-                                                  "path":  "data\\gpu-smoke\\runs\\run_a0370161e2b24848b848e362.json",
-                                                  "modified_at":  "2026-07-31T07:55:57.9104277Z"
-                                              },
-                                              {
-                                                  "path":  "data\\gpu-smoke\\raw\\run_a0370161e2b24848b848e362.json",
-                                                  "modified_at":  "2026-07-31T07:55:57.9049859Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
