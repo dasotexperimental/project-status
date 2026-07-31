@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T10:29:47.8101068Z",
+    "generated_at":  "2026-07-31T10:32:09.0233536Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,53 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T10:29:03.9689737Z",
+                         "last_meaningful_change_at":  "2026-07-31T10:32:01.9368228Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\index.html",
+                                                  "modified_at":  "2026-07-31T10:32:01.9368228Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\__main__.py",
+                                                  "modified_at":  "2026-07-31T10:31:26.2968597Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\webapp.py",
+                                                  "modified_at":  "2026-07-31T10:31:12.3891329Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\validation.py",
+                                                  "modified_at":  "2026-07-31T10:30:45.4248606Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\batch.py",
+                                                  "modified_at":  "2026-07-31T10:30:34.9319376Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\pipeline.py",
+                                                  "modified_at":  "2026-07-31T10:30:33.8168037Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\prompting.py",
+                                                  "modified_at":  "2026-07-31T10:30:32.7064932Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\deserialization.py",
+                                                  "modified_at":  "2026-07-31T10:29:57.2311710Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\analysis.py",
+                                                  "modified_at":  "2026-07-31T10:29:46.3577915Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\llama_client.py",
+                                                  "modified_at":  "2026-07-31T10:29:45.1649221Z"
+                                              },
                                               {
                                                   "path":  "src\\contentbot\\models.py",
                                                   "modified_at":  "2026-07-31T10:29:03.9689737Z"
@@ -329,16 +369,8 @@
                                                   "modified_at":  "2026-07-31T09:04:41.2824782Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\web\\static\\index.html",
-                                                  "modified_at":  "2026-07-31T09:04:38.8163912Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\web\\static\\styles.css",
                                                   "modified_at":  "2026-07-31T09:02:51.9001278Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\webapp.py",
-                                                  "modified_at":  "2026-07-31T08:58:01.3099829Z"
                                               },
                                               {
                                                   "path":  "docs\\ui-functional-spec.md",
@@ -347,14 +379,6 @@
                                               {
                                                   "path":  "src\\contentbot\\review.py",
                                                   "modified_at":  "2026-07-31T08:56:22.2452282Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\pipeline.py",
-                                                  "modified_at":  "2026-07-31T08:56:21.0842456Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\deserialization.py",
-                                                  "modified_at":  "2026-07-31T08:56:19.9361323Z"
                                               },
                                               {
                                                   "path":  "data\\gpu-smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
@@ -383,10 +407,6 @@
                                               {
                                                   "path":  "src\\contentbot\\normalization.py",
                                                   "modified_at":  "2026-07-30T15:50:16.3186932Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\prompting.py",
-                                                  "modified_at":  "2026-07-30T15:50:14.8669501Z"
                                               },
                                               {
                                                   "path":  "data\\smoke\\drafts\\draft_1025391b1da148d19811dbd8.json",
@@ -465,14 +485,6 @@
                                                   "modified_at":  "2026-07-30T15:27:00.3167740Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\__main__.py",
-                                                  "modified_at":  "2026-07-30T15:26:58.4981107Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\llama_client.py",
-                                                  "modified_at":  "2026-07-30T15:25:45.5665341Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\intake.py",
                                                   "modified_at":  "2026-07-30T15:25:43.3936195Z"
                                               },
@@ -483,18 +495,6 @@
                                               {
                                                   "path":  "tests\\test_models.py",
                                                   "modified_at":  "2026-07-30T14:07:50.6506186Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\data-contract.md",
-                                                  "modified_at":  "2026-07-30T14:07:46.6115227Z"
-                                              },
-                                              {
-                                                  "path":  "presets\\community-question.v1.json",
-                                                  "modified_at":  "2026-07-30T14:07:44.7434797Z"
-                                              },
-                                              {
-                                                  "path":  "presets\\offer-urgency.v1.json",
-                                                  "modified_at":  "2026-07-30T14:07:43.6367808Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
