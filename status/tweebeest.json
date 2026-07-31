@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T09:12:10.9230309Z",
+    "generated_at":  "2026-07-31T10:29:47.8101068Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T09:11:24.4104724Z",
+                         "last_meaningful_change_at":  "2026-07-31T10:29:03.9689737Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\models.py",
+                                                  "modified_at":  "2026-07-31T10:29:03.9689737Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\storage.py",
+                                                  "modified_at":  "2026-07-31T10:29:02.8846374Z"
+                                              },
                                               {
                                                   "path":  "docs\\ui-design-handoff.md",
                                                   "modified_at":  "2026-07-31T09:11:24.4104724Z"
@@ -347,10 +355,6 @@
                                               {
                                                   "path":  "src\\contentbot\\deserialization.py",
                                                   "modified_at":  "2026-07-31T08:56:19.9361323Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\storage.py",
-                                                  "modified_at":  "2026-07-31T08:56:18.7889295Z"
                                               },
                                               {
                                                   "path":  "data\\gpu-smoke\\jobs\\job_c29cf9ab335f3cf7cf98a82b.json",
@@ -475,10 +479,6 @@
                                               {
                                                   "path":  ".gitignore",
                                                   "modified_at":  "2026-07-30T14:08:25.2299715Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\models.py",
-                                                  "modified_at":  "2026-07-30T14:08:03.5874307Z"
                                               },
                                               {
                                                   "path":  "tests\\test_models.py",
