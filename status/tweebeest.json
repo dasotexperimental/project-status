@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:34:55.9901733Z",
+    "generated_at":  "2026-07-31T15:37:10.6815900Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,45 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:33:24.6025421Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:36:53.9112622Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "tests\\test_webapp.py",
+                                                  "modified_at":  "2026-07-31T15:36:53.9112622Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\app.js",
+                                                  "modified_at":  "2026-07-31T15:36:44.1474980Z"
+                                              },
+                                              {
+                                                  "path":  "config\\models.json",
+                                                  "modified_at":  "2026-07-31T15:36:23.9519856Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\webapp.py",
+                                                  "modified_at":  "2026-07-31T15:36:11.3180059Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\model_process.py",
+                                                  "modified_at":  "2026-07-31T15:36:09.8834314Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\model_profiles.py",
+                                                  "modified_at":  "2026-07-31T15:36:08.4077374Z"
+                                              },
+                                              {
+                                                  "path":  "data\\jobs\\job_90d4032b1a5b881c9c431fb5.json",
+                                                  "modified_at":  "2026-07-31T15:35:16.2288167Z"
+                                              },
+                                              {
+                                                  "path":  "data\\raw\\analysis_90d4032b1a5b881c9c431fb5.json",
+                                                  "modified_at":  "2026-07-31T15:35:16.2039328Z"
+                                              },
                                               {
                                                   "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
                                                   "modified_at":  "2026-07-31T15:33:24.6025421Z"
@@ -305,36 +337,8 @@
                                                   "modified_at":  "2026-07-31T15:32:22.2793652Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_webapp.py",
-                                                  "modified_at":  "2026-07-31T15:30:53.1001584Z"
-                                              },
-                                              {
                                                   "path":  "src\\contentbot\\web\\static\\styles.css",
                                                   "modified_at":  "2026-07-31T15:30:30.7613860Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\app.js",
-                                                  "modified_at":  "2026-07-31T15:30:14.2229528Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\webapp.py",
-                                                  "modified_at":  "2026-07-31T15:29:30.1286391Z"
-                                              },
-                                              {
-                                                  "path":  "config\\models.json",
-                                                  "modified_at":  "2026-07-31T15:28:24.6679218Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\model_process.py",
-                                                  "modified_at":  "2026-07-31T15:28:06.2693989Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\model_profiles.py",
-                                                  "modified_at":  "2026-07-31T15:27:57.0580621Z"
-                                              },
-                                              {
-                                                  "path":  "data\\jobs\\job_90d4032b1a5b881c9c431fb5.json",
-                                                  "modified_at":  "2026-07-31T14:59:46.6610355Z"
                                               },
                                               {
                                                   "path":  "data\\assets\\asset_387b55757a2110348bdfa6c6.json",
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "src\\contentbot\\llama_client.py",
                                                   "modified_at":  "2026-07-31T10:29:45.1649221Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\models.py",
-                                                  "modified_at":  "2026-07-31T10:29:03.9689737Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
