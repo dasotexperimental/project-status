@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:34:53.5523659Z",
+    "generated_at":  "2026-07-31T14:37:12.8159815Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:34:30.9092643Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:37:04.7486582Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\webapp.py",
+                                                  "modified_at":  "2026-07-31T14:37:04.7486582Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\model_profiles.py",
+                                                  "modified_at":  "2026-07-31T14:35:04.2020687Z"
+                                              },
                                               {
                                                   "path":  "src\\contentbot\\model_process.py",
                                                   "modified_at":  "2026-07-31T14:34:30.9092643Z"
@@ -401,10 +409,6 @@
                                                   "modified_at":  "2026-07-31T13:39:21.3642967Z"
                                               },
                                               {
-                                                  "path":  "src\\contentbot\\webapp.py",
-                                                  "modified_at":  "2026-07-31T13:39:10.0231721Z"
-                                              },
-                                              {
                                                   "path":  "docs\\ui-response-diff-handoff.md",
                                                   "modified_at":  "2026-07-31T12:38:48.1696543Z"
                                               },
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "data\\gpu-smoke\\raw\\run_a0370161e2b24848b848e362.json",
                                                   "modified_at":  "2026-07-31T07:55:57.9049859Z"
-                                              },
-                                              {
-                                                  "path":  "data\\gpu-smoke\\assets\\asset_a37491a5e479e191cfe547b4.json",
-                                                  "modified_at":  "2026-07-31T07:55:03.9492269Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
