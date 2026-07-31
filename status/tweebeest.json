@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:03:06.6978909Z",
+    "generated_at":  "2026-07-31T14:05:00.2023057Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:02:14.4687616Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:04:30.1203891Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -298,7 +298,31 @@
                          "recent_files":  [
                                               {
                                                   "path":  "data\\jobs\\job_f4c587f02af331ce4ad4f644.json",
-                                                  "modified_at":  "2026-07-31T14:02:14.4687616Z"
+                                                  "modified_at":  "2026-07-31T14:04:30.1203891Z"
+                                              },
+                                              {
+                                                  "path":  "data\\drafts\\draft_9e4e8e7edfb0401db4e32cfc.json",
+                                                  "modified_at":  "2026-07-31T14:04:30.1072436Z"
+                                              },
+                                              {
+                                                  "path":  "data\\runs\\run_6f30a55e76e047b2a2d069cc.json",
+                                                  "modified_at":  "2026-07-31T14:04:30.1015624Z"
+                                              },
+                                              {
+                                                  "path":  "data\\raw\\run_6f30a55e76e047b2a2d069cc.json",
+                                                  "modified_at":  "2026-07-31T14:04:30.0913410Z"
+                                              },
+                                              {
+                                                  "path":  "data\\selections\\selection_bba9a20eee4b7877ddb194e9.json",
+                                                  "modified_at":  "2026-07-31T14:03:18.6245047Z"
+                                              },
+                                              {
+                                                  "path":  "data\\analyses\\analysis_f4c587f02af331ce4ad4f644.json",
+                                                  "modified_at":  "2026-07-31T14:03:18.6185508Z"
+                                              },
+                                              {
+                                                  "path":  "data\\raw\\analysis_f4c587f02af331ce4ad4f644.json",
+                                                  "modified_at":  "2026-07-31T14:03:18.6125151Z"
                                               },
                                               {
                                                   "path":  "data\\assets\\asset_374da02dfa250f594b74cf6d.json",
@@ -471,30 +495,6 @@
                                               {
                                                   "path":  "examples\\review-event.example.json",
                                                   "modified_at":  "2026-07-30T15:33:29.9882833Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\draft-record.example.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9877496Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\generation-run.example.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9872206Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\job-record.example.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9861708Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\asset-record.example.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9856288Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\review-event.schema.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9850944Z"
-                                              },
-                                              {
-                                                  "path":  "schemas\\draft-record.schema.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9845660Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
