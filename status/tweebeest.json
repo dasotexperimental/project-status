@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T09:02:57.9459056Z",
+    "generated_at":  "2026-07-31T09:04:47.7424059Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T09:02:53.0289736Z",
+                         "last_meaningful_change_at":  "2026-07-31T09:04:41.2824782Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -297,16 +297,20 @@
                                   },
                          "recent_files":  [
                                               {
+                                                  "path":  "tests\\test_webapp.py",
+                                                  "modified_at":  "2026-07-31T09:04:41.2824782Z"
+                                              },
+                                              {
                                                   "path":  "src\\contentbot\\web\\static\\app.js",
-                                                  "modified_at":  "2026-07-31T09:02:53.0289736Z"
+                                                  "modified_at":  "2026-07-31T09:04:40.0531222Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\index.html",
+                                                  "modified_at":  "2026-07-31T09:04:38.8163912Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\styles.css",
                                                   "modified_at":  "2026-07-31T09:02:51.9001278Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\index.html",
-                                                  "modified_at":  "2026-07-31T09:02:50.7457502Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\webapp.py",
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "presets\\benefit-led.v1.json",
                                                   "modified_at":  "2026-07-30T14:07:40.1400108Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\presets.py",
-                                                  "modified_at":  "2026-07-30T14:05:42.0419823Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
