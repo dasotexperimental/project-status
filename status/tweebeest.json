@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:05:00.2023057Z",
+    "generated_at":  "2026-07-31T14:07:13.3852130Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:04:30.1203891Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:05:33.7273854Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -298,7 +298,19 @@
                          "recent_files":  [
                                               {
                                                   "path":  "data\\jobs\\job_f4c587f02af331ce4ad4f644.json",
-                                                  "modified_at":  "2026-07-31T14:04:30.1203891Z"
+                                                  "modified_at":  "2026-07-31T14:05:33.7273854Z"
+                                              },
+                                              {
+                                                  "path":  "data\\drafts\\draft_f403dc9bc9dc4fa4882d3463.json",
+                                                  "modified_at":  "2026-07-31T14:05:33.7173895Z"
+                                              },
+                                              {
+                                                  "path":  "data\\runs\\run_1c4d929fc73a4d1cbef17fab.json",
+                                                  "modified_at":  "2026-07-31T14:05:33.7136025Z"
+                                              },
+                                              {
+                                                  "path":  "data\\raw\\run_1c4d929fc73a4d1cbef17fab.json",
+                                                  "modified_at":  "2026-07-31T14:05:33.7063698Z"
                                               },
                                               {
                                                   "path":  "data\\drafts\\draft_9e4e8e7edfb0401db4e32cfc.json",
@@ -483,18 +495,6 @@
                                               {
                                                   "path":  "data\\smoke\\raw\\run_cf8374309c4640298718be67.json",
                                                   "modified_at":  "2026-07-30T15:49:18.3468056Z"
-                                              },
-                                              {
-                                                  "path":  "data\\smoke\\assets\\asset_a37491a5e479e191cfe547b4.json",
-                                                  "modified_at":  "2026-07-30T15:48:08.2069936Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\start_qwen3_vl_4b_cpu.ps1",
-                                                  "modified_at":  "2026-07-30T15:47:18.8426492Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\review-event.example.json",
-                                                  "modified_at":  "2026-07-30T15:33:29.9882833Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
