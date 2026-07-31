@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T13:22:13.6575981Z",
+    "generated_at":  "2026-07-31T13:39:49.5215707Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,25 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T13:21:37.3387061Z",
+                         "last_meaningful_change_at":  "2026-07-31T13:39:21.3642967Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\index.html",
+                                                  "modified_at":  "2026-07-31T13:39:21.3642967Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\webapp.py",
+                                                  "modified_at":  "2026-07-31T13:39:10.0231721Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\model_process.py",
+                                                  "modified_at":  "2026-07-31T13:38:47.5078989Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_webapp.py",
                                                   "modified_at":  "2026-07-31T13:21:37.3387061Z"
@@ -307,14 +319,6 @@
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\app.js",
                                                   "modified_at":  "2026-07-31T13:19:06.2936087Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\index.html",
-                                                  "modified_at":  "2026-07-31T13:11:27.3042336Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\webapp.py",
-                                                  "modified_at":  "2026-07-31T13:07:00.7445717Z"
                                               },
                                               {
                                                   "path":  "docs\\ui-response-diff-handoff.md",
@@ -491,10 +495,6 @@
                                               {
                                                   "path":  "schemas\\asset-record.schema.json",
                                                   "modified_at":  "2026-07-30T15:33:29.9824709Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\export_contracts.py",
-                                                  "modified_at":  "2026-07-30T15:33:25.4729226Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
