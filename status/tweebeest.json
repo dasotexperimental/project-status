@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T08:59:46.8045615Z",
+    "generated_at":  "2026-07-31T09:02:57.9459056Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,25 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T08:58:01.3099829Z",
+                         "last_meaningful_change_at":  "2026-07-31T09:02:53.0289736Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\app.js",
+                                                  "modified_at":  "2026-07-31T09:02:53.0289736Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\styles.css",
+                                                  "modified_at":  "2026-07-31T09:02:51.9001278Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\index.html",
+                                                  "modified_at":  "2026-07-31T09:02:50.7457502Z"
+                                              },
                                               {
                                                   "path":  "src\\contentbot\\webapp.py",
                                                   "modified_at":  "2026-07-31T08:58:01.3099829Z"
@@ -483,18 +495,6 @@
                                               {
                                                   "path":  "src\\contentbot\\presets.py",
                                                   "modified_at":  "2026-07-30T14:05:42.0419823Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\serialization.py",
-                                                  "modified_at":  "2026-07-30T14:05:39.7653855Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\validation.py",
-                                                  "modified_at":  "2026-07-30T14:05:38.6223769Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\enums.py",
-                                                  "modified_at":  "2026-07-30T14:05:37.4833545Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
