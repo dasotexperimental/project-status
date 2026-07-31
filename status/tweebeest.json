@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:37:10.6815900Z",
+    "generated_at":  "2026-07-31T15:39:57.8446716Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:36:53.9112622Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:39:22.5935271Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
+                                                  "modified_at":  "2026-07-31T15:39:22.5935271Z"
+                                              },
+                                              {
+                                                  "path":  "data\\model-verification.png",
+                                                  "modified_at":  "2026-07-31T15:38:23.4280073Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_webapp.py",
                                                   "modified_at":  "2026-07-31T15:36:53.9112622Z"
@@ -327,14 +335,6 @@
                                               {
                                                   "path":  "data\\raw\\analysis_90d4032b1a5b881c9c431fb5.json",
                                                   "modified_at":  "2026-07-31T15:35:16.2039328Z"
-                                              },
-                                              {
-                                                  "path":  "data\\settings\\setting_8edcc26c0f6c7256a71a8ede.json",
-                                                  "modified_at":  "2026-07-31T15:33:24.6025421Z"
-                                              },
-                                              {
-                                                  "path":  "data\\model-verification.png",
-                                                  "modified_at":  "2026-07-31T15:32:22.2793652Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\styles.css",
