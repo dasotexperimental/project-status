@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:27:14.6876009Z",
+    "generated_at":  "2026-07-31T14:34:53.5523659Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,17 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:26:17.8404390Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:34:30.9092643Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\model_process.py",
+                                                  "modified_at":  "2026-07-31T14:34:30.9092643Z"
+                                              },
                                               {
                                                   "path":  "data\\jobs\\job_97df37ad8449846bb68bd048.json",
                                                   "modified_at":  "2026-07-31T14:26:17.8404390Z"
@@ -399,10 +403,6 @@
                                               {
                                                   "path":  "src\\contentbot\\webapp.py",
                                                   "modified_at":  "2026-07-31T13:39:10.0231721Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\model_process.py",
-                                                  "modified_at":  "2026-07-31T13:38:47.5078989Z"
                                               },
                                               {
                                                   "path":  "docs\\ui-response-diff-handoff.md",
