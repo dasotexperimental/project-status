@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T08:57:08.7053191Z",
+    "generated_at":  "2026-07-31T08:59:46.8045615Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T08:56:22.2452282Z",
+                         "last_meaningful_change_at":  "2026-07-31T08:58:01.3099829Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\webapp.py",
+                                                  "modified_at":  "2026-07-31T08:58:01.3099829Z"
+                                              },
+                                              {
+                                                  "path":  "docs\\ui-functional-spec.md",
+                                                  "modified_at":  "2026-07-31T08:58:00.1748832Z"
+                                              },
                                               {
                                                   "path":  "src\\contentbot\\review.py",
                                                   "modified_at":  "2026-07-31T08:56:22.2452282Z"
@@ -487,14 +495,6 @@
                                               {
                                                   "path":  "src\\contentbot\\enums.py",
                                                   "modified_at":  "2026-07-30T14:05:37.4833545Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\__init__.py",
-                                                  "modified_at":  "2026-07-30T14:05:36.3439126Z"
-                                              },
-                                              {
-                                                  "path":  "pyproject.toml",
-                                                  "modified_at":  "2026-07-30T14:05:33.0713511Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
