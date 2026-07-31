@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T14:37:12.8159815Z",
+    "generated_at":  "2026-07-31T14:38:00.3792994Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,7 +289,7 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:37:04.7486582Z",
+                         "last_meaningful_change_at":  "2026-07-31T14:37:50.6405227Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -297,8 +297,12 @@
                                   },
                          "recent_files":  [
                                               {
+                                                  "path":  "src\\contentbot\\web\\static\\app.js",
+                                                  "modified_at":  "2026-07-31T14:37:50.6405227Z"
+                                              },
+                                              {
                                                   "path":  "src\\contentbot\\webapp.py",
-                                                  "modified_at":  "2026-07-31T14:37:04.7486582Z"
+                                                  "modified_at":  "2026-07-31T14:37:22.6188010Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\model_profiles.py",
@@ -399,10 +403,6 @@
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\styles.css",
                                                   "modified_at":  "2026-07-31T13:40:46.3121952Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\app.js",
-                                                  "modified_at":  "2026-07-31T13:40:28.0533381Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\web\\static\\index.html",
