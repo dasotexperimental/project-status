@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:02:13.2497422Z",
+    "generated_at":  "2026-07-31T15:28:10.1718810Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T14:59:46.6610355Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:28:06.2693989Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "src\\contentbot\\model_process.py",
+                                                  "modified_at":  "2026-07-31T15:28:06.2693989Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\model_profiles.py",
+                                                  "modified_at":  "2026-07-31T15:27:57.0580621Z"
+                                              },
                                               {
                                                   "path":  "data\\jobs\\job_90d4032b1a5b881c9c431fb5.json",
                                                   "modified_at":  "2026-07-31T14:59:46.6610355Z"
@@ -335,14 +343,6 @@
                                               {
                                                   "path":  "src\\contentbot\\webapp.py",
                                                   "modified_at":  "2026-07-31T14:37:22.6188010Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\model_profiles.py",
-                                                  "modified_at":  "2026-07-31T14:35:04.2020687Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\model_process.py",
-                                                  "modified_at":  "2026-07-31T14:34:30.9092643Z"
                                               },
                                               {
                                                   "path":  "data\\jobs\\job_97df37ad8449846bb68bd048.json",
