@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:29:50.3233916Z",
+    "generated_at":  "2026-07-31T15:32:11.7514116Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,25 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:29:30.1286391Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:30:53.1001584Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "tests\\test_webapp.py",
+                                                  "modified_at":  "2026-07-31T15:30:53.1001584Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\styles.css",
+                                                  "modified_at":  "2026-07-31T15:30:30.7613860Z"
+                                              },
+                                              {
+                                                  "path":  "src\\contentbot\\web\\static\\app.js",
+                                                  "modified_at":  "2026-07-31T15:30:14.2229528Z"
+                                              },
                                               {
                                                   "path":  "src\\contentbot\\webapp.py",
                                                   "modified_at":  "2026-07-31T15:29:30.1286391Z"
@@ -335,18 +347,6 @@
                                               {
                                                   "path":  "data\\model-verification.png",
                                                   "modified_at":  "2026-07-31T14:43:59.2254793Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_webapp.py",
-                                                  "modified_at":  "2026-07-31T14:41:23.7076875Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\styles.css",
-                                                  "modified_at":  "2026-07-31T14:40:58.5816195Z"
-                                              },
-                                              {
-                                                  "path":  "src\\contentbot\\web\\static\\app.js",
-                                                  "modified_at":  "2026-07-31T14:40:28.8625417Z"
                                               },
                                               {
                                                   "path":  "data\\jobs\\job_97df37ad8449846bb68bd048.json",
