@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T13:42:10.9706888Z",
+    "generated_at":  "2026-07-31T13:44:51.6868317Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,21 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T13:41:28.0961984Z",
+                         "last_meaningful_change_at":  "2026-07-31T13:44:45.3204686Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "README.md",
+                                                  "modified_at":  "2026-07-31T13:44:45.3204686Z"
+                                              },
+                                              {
+                                                  "path":  "scripts\\start_ui.ps1",
+                                                  "modified_at":  "2026-07-31T13:44:13.8832026Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_webapp.py",
                                                   "modified_at":  "2026-07-31T13:41:28.0961984Z"
@@ -331,10 +339,6 @@
                                               {
                                                   "path":  "docs\\ui-functional-spec.md",
                                                   "modified_at":  "2026-07-31T10:38:36.4620144Z"
-                                              },
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-31T10:38:35.3518097Z"
                                               },
                                               {
                                                   "path":  "src\\contentbot\\__main__.py",
@@ -391,10 +395,6 @@
                                               {
                                                   "path":  "src\\contentbot\\models.py",
                                                   "modified_at":  "2026-07-31T10:29:03.9689737Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\start_ui.ps1",
-                                                  "modified_at":  "2026-07-31T09:05:13.1333765Z"
                                               },
                                               {
                                                   "path":  "scripts\\start_qwen3_vl_4b_vulkan.ps1",
