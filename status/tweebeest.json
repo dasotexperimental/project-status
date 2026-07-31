@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-07-31T15:32:11.7514116Z",
+    "generated_at":  "2026-07-31T15:33:02.6173447Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -289,13 +289,17 @@
                          "id":  "contentbot",
                          "display_name":  "ContentBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-07-31T15:30:53.1001584Z",
+                         "last_meaningful_change_at":  "2026-07-31T15:32:22.2793652Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "data\\model-verification.png",
+                                                  "modified_at":  "2026-07-31T15:32:22.2793652Z"
+                                              },
                                               {
                                                   "path":  "tests\\test_webapp.py",
                                                   "modified_at":  "2026-07-31T15:30:53.1001584Z"
@@ -343,10 +347,6 @@
                                               {
                                                   "path":  "README.md",
                                                   "modified_at":  "2026-07-31T14:44:48.8129188Z"
-                                              },
-                                              {
-                                                  "path":  "data\\model-verification.png",
-                                                  "modified_at":  "2026-07-31T14:43:59.2254793Z"
                                               },
                                               {
                                                   "path":  "data\\jobs\\job_97df37ad8449846bb68bd048.json",
