@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-11T18:51:21.8288565Z",
+    "generated_at":  "2026-08-13T18:42:28.5664854Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -834,22 +834,6 @@
                                               {
                                                   "path":  "planner\\planner_state.json",
                                                   "modified_at":  "2026-06-16T21:46:16.8615899Z"
-                                              },
-                                              {
-                                                  "path":  "planner\\templates\\index.html",
-                                                  "modified_at":  "2026-02-14T17:11:31.4207743Z"
-                                              },
-                                              {
-                                                  "path":  "planner\\app.py",
-                                                  "modified_at":  "2026-02-14T15:04:15.8899181Z"
-                                              },
-                                              {
-                                                  "path":  "planner\\static\\icon.svg",
-                                                  "modified_at":  "2026-02-14T14:30:24.9881521Z"
-                                              },
-                                              {
-                                                  "path":  "planner\\static\\manifest.json",
-                                                  "modified_at":  "2026-02-14T14:30:19.3088052Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
