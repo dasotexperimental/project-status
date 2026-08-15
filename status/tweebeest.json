@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-13T21:41:41.5505242Z",
+    "generated_at":  "2026-08-15T09:56:42.4007846Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -227,61 +227,14 @@
                          "id":  "calculator",
                          "display_name":  "Calculator",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-02-14T22:01:53.9357532Z",
+                         "last_meaningful_change_at":  null,
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
-                                              {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-02-14T22:01:53.9357532Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\ReleaseChecklist.md",
-                                                  "modified_at":  "2026-02-14T22:01:49.8647198Z"
-                                              },
-                                              {
-                                                  "path":  "docs\\UserManual.md",
-                                                  "modified_at":  "2026-02-14T22:01:46.8916975Z"
-                                              },
-                                              {
-                                                  "path":  "requirements-dev.txt",
-                                                  "modified_at":  "2026-02-14T22:01:41.4445213Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\build_windows.ps1",
-                                                  "modified_at":  "2026-02-14T22:01:39.4036503Z"
-                                              },
-                                              {
-                                                  "path":  "resources\\version_info.txt",
-                                                  "modified_at":  "2026-02-14T22:01:35.4202405Z"
-                                              },
-                                              {
-                                                  "path":  "resources\\app.ico",
-                                                  "modified_at":  "2026-02-14T22:01:28.1239055Z"
-                                              },
-                                              {
-                                                  "path":  "scripts\\generate_icon.py",
-                                                  "modified_at":  "2026-02-14T22:01:24.1404110Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_engine.py",
-                                                  "modified_at":  "2026-02-14T22:00:57.8342002Z"
-                                              },
-                                              {
-                                                  "path":  "app.py",
-                                                  "modified_at":  "2026-02-14T22:00:29.3128544Z"
-                                              },
-                                              {
-                                                  "path":  "calculator\\__init__.py",
-                                                  "modified_at":  "2026-02-14T21:59:33.7133582Z"
-                                              },
-                                              {
-                                                  "path":  "calculator\\engine.py",
-                                                  "modified_at":  "2026-02-14T21:59:25.7523290Z"
-                                              }
+
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
                      },
