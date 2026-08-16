@@ -1,13 +1,13 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T23:50:37.6400835Z",
+    "generated_at":  "2026-08-16T23:55:34.3240354Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
                          "id":  "aza",
                          "display_name":  "AZA",
                          "state":  "dirty",
-                         "last_meaningful_change_at":  "2026-08-16T23:47:58.7528393Z",
+                         "last_meaningful_change_at":  "2026-08-16T23:47:58.7538968Z",
                          "git":  {
                                      "branch":  "main",
                                      "commit":  "707d5b0f5e3d02fc0c21315991cf15e6e0ad29ea",
@@ -20,6 +20,10 @@
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\trace",
+                                                  "modified_at":  "2026-08-16T23:47:58.7538968Z"
+                                              },
                                               {
                                                   "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\LOG",
                                                   "modified_at":  "2026-08-16T23:47:58.7528393Z"
@@ -51,10 +55,6 @@
                                               {
                                                   "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000030.sst",
                                                   "modified_at":  "2026-08-16T23:47:58.7399649Z"
-                                              },
-                                              {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\trace",
-                                                  "modified_at":  "2026-08-16T23:46:08.7214229Z"
                                               },
                                               {
                                                   "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000029.del",
