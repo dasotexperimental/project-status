@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T00:01:31.6106369Z",
+    "generated_at":  "2026-08-16T00:05:21.0994791Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -607,7 +607,7 @@
                                   },
                          "recent_files":  [
                                               {
-                                                  "path":  "rule_encoding_template.py",
+                                                  "path":  "examples\\rule_encoding_template.py",
                                                   "modified_at":  "2026-08-16T00:01:04.7943205Z"
                                               }
                                           ],
