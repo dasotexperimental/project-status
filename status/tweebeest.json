@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T00:15:33.7341112Z",
+    "generated_at":  "2026-08-16T00:25:29.0158919Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -599,7 +599,7 @@
                          "id":  "tradingbot",
                          "display_name":  "TradingBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-08-16T00:11:54.7725973Z",
+                         "last_meaningful_change_at":  "2026-08-16T00:25:13.6151628Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
@@ -607,12 +607,36 @@
                                   },
                          "recent_files":  [
                                               {
-                                                  "path":  "project_description.md",
-                                                  "modified_at":  "2026-08-16T00:11:54.7725973Z"
+                                                  "path":  "tests\\test_rule_encoding_template.py",
+                                                  "modified_at":  "2026-08-16T00:25:13.6151628Z"
                                               },
                                               {
                                                   "path":  "examples\\rule_encoding_template.py",
-                                                  "modified_at":  "2026-08-16T00:01:04.7943205Z"
+                                                  "modified_at":  "2026-08-16T00:25:12.6530217Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\selected_parameters.csv",
+                                                  "modified_at":  "2026-08-16T00:24:26.9225297Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\run_manifest.json",
+                                                  "modified_at":  "2026-08-16T00:24:26.9225297Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\walk_forward_test_by_regime.csv",
+                                                  "modified_at":  "2026-08-16T00:24:26.9209561Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\tune_sweep_by_regime.csv",
+                                                  "modified_at":  "2026-08-16T00:24:26.9154292Z"
+                                              },
+                                              {
+                                                  "path":  "requirements.txt",
+                                                  "modified_at":  "2026-08-16T00:21:45.1024837Z"
+                                              },
+                                              {
+                                                  "path":  "project_description.md",
+                                                  "modified_at":  "2026-08-16T00:11:54.7725973Z"
                                               }
                                           ],
                          "warning":  "No Git repository detected; reporting filesystem activity only."
