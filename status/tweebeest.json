@@ -1,25 +1,73 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T18:00:34.3587417Z",
+    "generated_at":  "2026-08-16T23:25:26.1538747Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
                          "id":  "aza",
                          "display_name":  "AZA",
                          "state":  "dirty",
-                         "last_meaningful_change_at":  "2026-07-14T22:31:26.6615763Z",
+                         "last_meaningful_change_at":  "2026-08-16T23:24:01.4959376Z",
                          "git":  {
                                      "branch":  "main",
                                      "commit":  "707d5b0f5e3d02fc0c21315991cf15e6e0ad29ea",
                                      "last_commit_at":  "2026-07-15T00:32:39+02:00",
                                      "dirty":  true,
-                                     "uncommitted_change_count":  38
+                                     "uncommitted_change_count":  40
                                  },
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\lib\\data-adapter.ts",
+                                                  "modified_at":  "2026-08-16T23:24:01.4959376Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\page.tsx",
+                                                  "modified_at":  "2026-08-16T23:24:01.4833769Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\layout.tsx",
+                                                  "modified_at":  "2026-08-16T23:24:01.4748488Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\globals.css",
+                                                  "modified_at":  "2026-08-16T23:24:01.4663591Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\public\\favicon.svg",
+                                                  "modified_at":  "2026-08-16T23:24:01.4514228Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\next.config.ts",
+                                                  "modified_at":  "2026-08-16T23:24:01.4366634Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\package.json",
+                                                  "modified_at":  "2026-08-16T23:24:01.4287751Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\tsconfig.json",
+                                                  "modified_at":  "2026-08-16T23:24:01.4221943Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\eslint.config.mjs",
+                                                  "modified_at":  "2026-08-16T23:24:01.4158487Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\README.md",
+                                                  "modified_at":  "2026-08-16T23:24:01.4078667Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\postcss.config.mjs",
+                                                  "modified_at":  "2026-08-16T23:24:01.3934616Z"
+                                              },
+                                              {
+                                                  "path":  "AZA-bouwregels-frontend-reference.zip",
+                                                  "modified_at":  "2026-08-16T23:22:51.3196329Z"
+                                              },
                                               {
                                                   "path":  ".gitignore",
                                                   "modified_at":  "2026-07-14T22:31:26.6615763Z"
@@ -171,54 +219,6 @@
                                               {
                                                   "path":  "aza\\ingest\\pipeline.py",
                                                   "modified_at":  "2026-07-14T08:19:16.0447554Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\store\\__init__.py",
-                                                  "modified_at":  "2026-07-14T08:19:15.1934488Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\store\\sqlite_store.py",
-                                                  "modified_at":  "2026-07-14T08:19:14.3429852Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\ingest\\types.py",
-                                                  "modified_at":  "2026-07-14T08:15:57.1594094Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\ingest\\preprocess\\__init__.py",
-                                                  "modified_at":  "2026-07-14T08:15:56.2865812Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\ingest\\preprocess\\article_extract_xml.py",
-                                                  "modified_at":  "2026-07-14T08:15:55.4358671Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\llm\\server_args.py",
-                                                  "modified_at":  "2026-07-12T18:30:18.6085572Z"
-                                              },
-                                              {
-                                                  "path":  ".stignore",
-                                                  "modified_at":  "2026-07-12T14:41:40.2005388Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_retrieval_relevance.py",
-                                                  "modified_at":  "2026-07-12T00:45:04.5876451Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\retrieve\\relevance.py",
-                                                  "modified_at":  "2026-07-12T00:44:55.8441523Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\retrieve\\__init__.py",
-                                                  "modified_at":  "2026-07-12T00:43:16.0731649Z"
-                                              },
-                                              {
-                                                  "path":  "aza\\answer\\value_extract.py",
-                                                  "modified_at":  "2026-07-12T00:38:54.2732239Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_value_extract.py",
-                                                  "modified_at":  "2026-07-12T00:38:37.1329024Z"
                                               }
                                           ],
                          "warning":  null
