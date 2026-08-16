@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T00:26:40.2660717Z",
+    "generated_at":  "2026-08-16T18:00:34.3587417Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -599,13 +599,93 @@
                          "id":  "tradingbot",
                          "display_name":  "TradingBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-08-16T00:26:06.4589915Z",
+                         "last_meaningful_change_at":  "2026-08-16T12:37:52.3875079Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "outputs\\final_tune\\final_tune_manifest.json",
+                                                  "modified_at":  "2026-08-16T12:37:52.3875079Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\final_tune\\shortlist\\filter_summary.json",
+                                                  "modified_at":  "2026-08-16T12:37:52.3864531Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\final_tune\\shortlist\\regime_aggregation_details.csv",
+                                                  "modified_at":  "2026-08-16T12:37:52.3843393Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\final_tune\\shortlist\\ticker_benchmark_details.csv",
+                                                  "modified_at":  "2026-08-16T12:37:52.3822501Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\final_tune\\shortlist\\all_scored_combinations.csv",
+                                                  "modified_at":  "2026-08-16T12:37:52.3790846Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\final_tune\\shortlist\\filter_funnel.csv",
+                                                  "modified_at":  "2026-08-16T12:37:52.3733558Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\final_tune\\shortlist\\shortlist.csv",
+                                                  "modified_at":  "2026-08-16T12:37:52.3722877Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\final_tune\\tune_sweep_by_regime.csv",
+                                                  "modified_at":  "2026-08-16T12:37:43.7455199Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_rule_encoding_template.py",
+                                                  "modified_at":  "2026-08-16T12:36:30.2926988Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\run_final_tune.py",
+                                                  "modified_at":  "2026-08-16T12:35:43.9407559Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\rule_filtering.py",
+                                                  "modified_at":  "2026-08-16T12:34:52.5535591Z"
+                                              },
+                                              {
+                                                  "path":  "examples\\rule_encoding_template.py",
+                                                  "modified_at":  "2026-08-16T12:34:38.2621381Z"
+                                              },
+                                              {
+                                                  "path":  "tests\\test_rule_filtering.py",
+                                                  "modified_at":  "2026-08-16T11:44:28.7473774Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\shortlist\\filter_summary.json",
+                                                  "modified_at":  "2026-08-16T11:43:34.3933235Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\shortlist\\regime_aggregation_details.csv",
+                                                  "modified_at":  "2026-08-16T11:43:34.3922654Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\shortlist\\ticker_benchmark_details.csv",
+                                                  "modified_at":  "2026-08-16T11:43:34.3917460Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\shortlist\\all_scored_combinations.csv",
+                                                  "modified_at":  "2026-08-16T11:43:34.3901680Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\shortlist\\filter_funnel.csv",
+                                                  "modified_at":  "2026-08-16T11:43:34.3891207Z"
+                                              },
+                                              {
+                                                  "path":  "outputs\\latest\\shortlist\\shortlist.csv",
+                                                  "modified_at":  "2026-08-16T11:43:34.3880623Z"
+                                              },
+                                              {
+                                                  "path":  "requirements.txt",
+                                                  "modified_at":  "2026-08-16T11:39:31.0546299Z"
+                                              },
                                               {
                                                   "path":  "outputs\\latest\\run_manifest.json",
                                                   "modified_at":  "2026-08-16T00:26:06.4589915Z"
@@ -621,18 +701,6 @@
                                               {
                                                   "path":  "outputs\\latest\\tune_sweep_by_regime.csv",
                                                   "modified_at":  "2026-08-16T00:26:06.4506338Z"
-                                              },
-                                              {
-                                                  "path":  "tests\\test_rule_encoding_template.py",
-                                                  "modified_at":  "2026-08-16T00:25:13.6151628Z"
-                                              },
-                                              {
-                                                  "path":  "examples\\rule_encoding_template.py",
-                                                  "modified_at":  "2026-08-16T00:25:12.6530217Z"
-                                              },
-                                              {
-                                                  "path":  "requirements.txt",
-                                                  "modified_at":  "2026-08-16T00:21:45.1024837Z"
                                               },
                                               {
                                                   "path":  "project_description.md",
