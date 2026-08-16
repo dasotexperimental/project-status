@@ -1,13 +1,13 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T23:25:26.1538747Z",
+    "generated_at":  "2026-08-16T23:40:31.2316597Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
                          "id":  "aza",
                          "display_name":  "AZA",
                          "state":  "dirty",
-                         "last_meaningful_change_at":  "2026-08-16T23:24:01.4959376Z",
+                         "last_meaningful_change_at":  "2026-08-16T23:39:09.2447617Z",
                          "git":  {
                                      "branch":  "main",
                                      "commit":  "707d5b0f5e3d02fc0c21315991cf15e6e0ad29ea",
@@ -21,204 +21,204 @@
                                   },
                          "recent_files":  [
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\lib\\data-adapter.ts",
-                                                  "modified_at":  "2026-08-16T23:24:01.4959376Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.npm-cache\\_logs\\2026-08-16T23_38_21_528Z-debug-0.log",
+                                                  "modified_at":  "2026-08-16T23:39:09.2447617Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\page.tsx",
-                                                  "modified_at":  "2026-08-16T23:24:01.4833769Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\update-browserslist-db",
+                                                  "modified_at":  "2026-08-16T23:39:04.8490903Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\layout.tsx",
-                                                  "modified_at":  "2026-08-16T23:24:01.4748488Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\update-browserslist-db.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8485545Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\app\\globals.css",
-                                                  "modified_at":  "2026-08-16T23:24:01.4663591Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\update-browserslist-db.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8485545Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\public\\favicon.svg",
-                                                  "modified_at":  "2026-08-16T23:24:01.4514228Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\node-which.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8474792Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\next.config.ts",
-                                                  "modified_at":  "2026-08-16T23:24:01.4366634Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\node-which.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8469476Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\package.json",
-                                                  "modified_at":  "2026-08-16T23:24:01.4287751Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\node-which",
+                                                  "modified_at":  "2026-08-16T23:39:04.8469476Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\tsconfig.json",
-                                                  "modified_at":  "2026-08-16T23:24:01.4221943Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\tsserver",
+                                                  "modified_at":  "2026-08-16T23:39:04.8408919Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\eslint.config.mjs",
-                                                  "modified_at":  "2026-08-16T23:24:01.4158487Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\tsserver.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8408919Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\README.md",
-                                                  "modified_at":  "2026-08-16T23:24:01.4078667Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\tsserver.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8397339Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\postcss.config.mjs",
-                                                  "modified_at":  "2026-08-16T23:24:01.3934616Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\tsc",
+                                                  "modified_at":  "2026-08-16T23:39:04.8388860Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference.zip",
-                                                  "modified_at":  "2026-08-16T23:22:51.3196329Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\tsc.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8383452Z"
                                               },
                                               {
-                                                  "path":  ".gitignore",
-                                                  "modified_at":  "2026-07-14T22:31:26.6615763Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\semver",
+                                                  "modified_at":  "2026-08-16T23:39:04.8378164Z"
                                               },
                                               {
-                                                  "path":  "aza\\gui\\static\\index.html",
-                                                  "modified_at":  "2026-07-14T20:33:50.2197831Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\resolve.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8378164Z"
                                               },
                                               {
-                                                  "path":  "MINI_USER_MANUAL.md",
-                                                  "modified_at":  "2026-07-14T20:33:33.8254955Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\semver.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8378164Z"
                                               },
                                               {
-                                                  "path":  "README.md",
-                                                  "modified_at":  "2026-07-14T20:33:19.1026863Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\tsc.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8378164Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_gui_service.py",
-                                                  "modified_at":  "2026-07-14T20:29:33.8231854Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\semver.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8378164Z"
                                               },
                                               {
-                                                  "path":  "aza\\cli\\main.py",
-                                                  "modified_at":  "2026-07-14T20:29:16.6589666Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\next.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\gui\\server.py",
-                                                  "modified_at":  "2026-07-14T20:26:44.7768208Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\napi-postinstall.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\gui\\__main__.py",
-                                                  "modified_at":  "2026-07-14T20:26:43.6531985Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\next",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\gui\\__init__.py",
-                                                  "modified_at":  "2026-07-14T20:26:42.5207038Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\napi-postinstall.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\llm\\client.py",
-                                                  "modified_at":  "2026-07-14T19:34:16.8338256Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\nanoid.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\llm\\llamacpp_server.py",
-                                                  "modified_at":  "2026-07-14T19:32:39.2272235Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\nanoid",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_llamacpp_server.py",
-                                                  "modified_at":  "2026-07-14T19:31:26.1877381Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\napi-postinstall",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_llm_server_recovery.py",
-                                                  "modified_at":  "2026-07-14T19:31:25.0380868Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\nanoid.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\answer\\evidence.py",
-                                                  "modified_at":  "2026-07-14T19:30:35.8875622Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\resolve",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\evaluation\\question_run.py",
-                                                  "modified_at":  "2026-07-14T19:30:23.6319185Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\resolve.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\llm\\intent_cache.py",
-                                                  "modified_at":  "2026-07-14T19:30:22.4915169Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\next.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\llm\\intent.py",
-                                                  "modified_at":  "2026-07-14T19:29:51.4257739Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\loose-envify",
+                                                  "modified_at":  "2026-08-16T23:39:04.8372775Z"
                                               },
                                               {
-                                                  "path":  "aza\\llm\\schema.py",
-                                                  "modified_at":  "2026-07-14T19:28:47.1452092Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\loose-envify.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "aza\\llm\\config.py",
-                                                  "modified_at":  "2026-07-14T19:28:46.0183067Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\json5",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "docs\\85_nieuwe_testvragen.md",
-                                                  "modified_at":  "2026-07-14T16:06:20.6413351Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\js-yaml",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_candidate_selector.py",
-                                                  "modified_at":  "2026-07-14T11:24:56.6213865Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\json5.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_evidence_units.py",
-                                                  "modified_at":  "2026-07-14T11:23:57.6055139Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\json5.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "aza\\answer\\candidate_selector.py",
-                                                  "modified_at":  "2026-07-14T11:23:56.7546482Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\eslint.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "aza\\answer\\evidence_units.py",
-                                                  "modified_at":  "2026-07-14T11:23:55.9016649Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\eslint",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "aza\\ingest\\preprocess\\table_extract_xml.py",
-                                                  "modified_at":  "2026-07-14T11:22:55.0879688Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\eslint.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_preprocess_determinism.py",
-                                                  "modified_at":  "2026-07-14T11:22:00.1213272Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\loose-envify.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8367593Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_table_extract_coverage.py",
-                                                  "modified_at":  "2026-07-14T11:21:53.0688139Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\js-yaml.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8362365Z"
                                               },
                                               {
-                                                  "path":  ".pytest_tmp_audit\\bbl\\BWBR0041297_2026-01-01\\tables.jsonl",
-                                                  "modified_at":  "2026-07-14T11:21:10.1791364Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\js-yaml.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8362365Z"
                                               },
                                               {
-                                                  "path":  ".pytest_tmp_audit\\bbl\\BWBR0041297_2026-01-01\\tables.md",
-                                                  "modified_at":  "2026-07-14T11:21:10.0298048Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\jiti",
+                                                  "modified_at":  "2026-08-16T23:39:04.8362365Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_retrieval_intent.py",
-                                                  "modified_at":  "2026-07-14T08:27:02.6013957Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\jiti.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8362365Z"
                                               },
                                               {
-                                                  "path":  "aza\\retrieve\\intent.py",
-                                                  "modified_at":  "2026-07-14T08:27:01.7602912Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\jsesc.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8362365Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_tiered_retrieval.py",
-                                                  "modified_at":  "2026-07-14T08:25:37.4819338Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\jsesc.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8362365Z"
                                               },
                                               {
-                                                  "path":  "aza\\retrieve\\tiered.py",
-                                                  "modified_at":  "2026-07-14T08:25:35.7737618Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\jsesc",
+                                                  "modified_at":  "2026-08-16T23:39:04.8362365Z"
                                               },
                                               {
-                                                  "path":  "docs\\gouden_vragen_09.jsonl",
-                                                  "modified_at":  "2026-07-14T08:23:23.7364755Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\jiti.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8357110Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_golden_evaluation.py",
-                                                  "modified_at":  "2026-07-14T08:21:54.1654994Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\browserslist.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8351787Z"
                                               },
                                               {
-                                                  "path":  "aza\\evaluation\\golden_run.py",
-                                                  "modified_at":  "2026-07-14T08:21:53.3030813Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\acorn",
+                                                  "modified_at":  "2026-08-16T23:39:04.8351787Z"
                                               },
                                               {
-                                                  "path":  "tests\\test_article_extract_xml.py",
-                                                  "modified_at":  "2026-07-14T08:19:16.8878947Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\parser.cmd",
+                                                  "modified_at":  "2026-08-16T23:39:04.8351787Z"
                                               },
                                               {
-                                                  "path":  "aza\\ingest\\pipeline.py",
-                                                  "modified_at":  "2026-07-14T08:19:16.0447554Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\node_modules\\.bin\\parser.ps1",
+                                                  "modified_at":  "2026-08-16T23:39:04.8351787Z"
                                               }
                                           ],
                          "warning":  null
