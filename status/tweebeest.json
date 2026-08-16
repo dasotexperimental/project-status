@@ -1,13 +1,13 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T23:45:36.0740881Z",
+    "generated_at":  "2026-08-16T23:50:37.6400835Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
                          "id":  "aza",
                          "display_name":  "AZA",
                          "state":  "dirty",
-                         "last_meaningful_change_at":  "2026-08-16T23:45:06.5096442Z",
+                         "last_meaningful_change_at":  "2026-08-16T23:47:58.7528393Z",
                          "git":  {
                                      "branch":  "main",
                                      "commit":  "707d5b0f5e3d02fc0c21315991cf15e6e0ad29ea",
@@ -21,204 +21,204 @@
                                   },
                          "recent_files":  [
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\start-reference-frontend.ps1",
-                                                  "modified_at":  "2026-08-16T23:45:06.5096442Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\LOG",
+                                                  "modified_at":  "2026-08-16T23:47:58.7528393Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\trace-build",
-                                                  "modified_at":  "2026-08-16T23:44:51.9076269Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\CURRENT",
+                                                  "modified_at":  "2026-08-16T23:47:58.7507239Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\trace",
-                                                  "modified_at":  "2026-08-16T23:44:51.9070878Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000034.meta",
+                                                  "modified_at":  "2026-08-16T23:47:58.7427623Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\diagnostics\\route-bundle-stats.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.9032910Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000035.meta",
+                                                  "modified_at":  "2026-08-16T23:47:58.7427623Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\export-marker.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.8903536Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000033.meta",
+                                                  "modified_at":  "2026-08-16T23:47:58.7422385Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\images-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.8875150Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000032.sst",
+                                                  "modified_at":  "2026-08-16T23:47:58.7406795Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\static\\tEbS0hZBMs73tGLFyQFz-\\_ssgManifest.js",
-                                                  "modified_at":  "2026-08-16T23:44:51.8851642Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000031.sst",
+                                                  "modified_at":  "2026-08-16T23:47:58.7399649Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\prefetch-hints.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.8825995Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000030.sst",
+                                                  "modified_at":  "2026-08-16T23:47:58.7399649Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\prerender-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.8815155Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\trace",
+                                                  "modified_at":  "2026-08-16T23:46:08.7214229Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\routes-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.8787712Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000029.del",
+                                                  "modified_at":  "2026-08-16T23:46:08.6983535Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\pages-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.8777066Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000028.meta",
+                                                  "modified_at":  "2026-08-16T23:46:08.5740393Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.segments\\_not-found\\__PAGE__.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8674711Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000027.sst",
+                                                  "modified_at":  "2026-08-16T23:46:08.5703610Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.meta",
-                                                  "modified_at":  "2026-08-16T23:44:51.8674711Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000026.meta",
+                                                  "modified_at":  "2026-08-16T23:46:08.0861502Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8669152Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000024.meta",
+                                                  "modified_at":  "2026-08-16T23:46:08.0861502Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.html",
-                                                  "modified_at":  "2026-08-16T23:44:51.8669152Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000023.meta",
+                                                  "modified_at":  "2026-08-16T23:46:08.0861502Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.segments\\_index.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8663845Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000022.sst",
+                                                  "modified_at":  "2026-08-16T23:46:08.0841945Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.segments\\__PAGE__.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8658509Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000021.sst",
+                                                  "modified_at":  "2026-08-16T23:46:08.0714469Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.segments\\_head.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8658509Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\cache\\turbopack\\ee6e79b1\\00000020.sst",
+                                                  "modified_at":  "2026-08-16T23:46:08.0218748Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8646963Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\next-font-manifest.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5775095Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.segments\\_tree.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8646963Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\next-font-manifest.json",
+                                                  "modified_at":  "2026-08-16T23:46:05.5762717Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\index.segments\\_full.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8646963Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\fallback-build-manifest.json",
+                                                  "modified_at":  "2026-08-16T23:46:05.5752716Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.meta",
-                                                  "modified_at":  "2026-08-16T23:44:51.8646963Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\middleware-build-manifest.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5732715Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\pages\\404.html",
-                                                  "modified_at":  "2026-08-16T23:44:51.8636217Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\build-manifest.json",
+                                                  "modified_at":  "2026-08-16T23:46:05.5722726Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.html",
-                                                  "modified_at":  "2026-08-16T23:44:51.8636217Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\app-paths-manifest.json",
+                                                  "modified_at":  "2026-08-16T23:46:05.5702725Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.segments\\_head.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8630806Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\server-reference-manifest.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5682707Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8630806Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\server-reference-manifest.json",
+                                                  "modified_at":  "2026-08-16T23:46:05.5672713Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\pages\\500.html",
-                                                  "modified_at":  "2026-08-16T23:44:51.8630806Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\node_modules_09w7yel._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5333341Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.meta",
-                                                  "modified_at":  "2026-08-16T23:44:51.8630806Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\[externals]__0n13xf4._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5253343Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.html",
-                                                  "modified_at":  "2026-08-16T23:44:51.8630806Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\[turbopack]_runtime.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.5253343Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.segments\\_index.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8630806Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\_0luh30o._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5203337Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.segments\\_not-found.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8620233Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\app\\page\\build-manifest.json",
+                                                  "modified_at":  "2026-08-16T23:46:05.5173347Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.segments\\_tree.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8615031Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_components_builtin_global-error_0kcl1js.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5103355Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_not-found.segments\\_full.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8615031Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_next-devtools_index_0553esy.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.5083255Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.segments\\_head.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8615031Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_react-dom_058-ah~._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5072046Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.segments\\__PAGE__.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8615031Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\0ccc_dist_server_route-modules_app-page_vendored_ssr_react-jsx-dev-runtime_008..zm.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.5052039Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.segments\\_index.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8615031Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\_0p44nws._.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.5042034Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.segments\\_full.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8609756Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_react_0f6hs59._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.5042034Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\app\\_global-error.segments\\_tree.segment.rsc",
-                                                  "modified_at":  "2026-08-16T23:44:51.8609756Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\[turbopack]_browser_dev_hmr-client_hmr-client_ts_10z625~._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4912047Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\diagnostics\\build-diagnostics.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.3092108Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\[turbopack]_browser_dev_hmr-client_hmr-client_ts_0yjw1oe._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4818860Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\BUILD_ID",
-                                                  "modified_at":  "2026-08-16T23:44:51.3060106Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\app_0unpy62._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4808854Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\functions-config-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:51.3028231Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_0yh1sr3._.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.4690636Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\app-path-routes-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:50.6507765Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\[externals]_next_dist_0yew8f-._.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.4690636Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\required-server-files.js",
-                                                  "modified_at":  "2026-08-16T23:44:50.6464571Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_compiled_07ho8ku._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4680606Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\required-server-files.json",
-                                                  "modified_at":  "2026-08-16T23:44:50.6453846Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\_next-internal_server_app_page_actions_09-gtaw.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.4635437Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\cache\\.tsbuildinfo",
-                                                  "modified_at":  "2026-08-16T23:44:50.2643885Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_react-server-dom-turbopack_0p3wegg._.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.4575452Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\next-env.d.ts",
-                                                  "modified_at":  "2026-08-16T23:44:48.5088904Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_0tt2wve._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4565442Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\next-font-manifest.js",
-                                                  "modified_at":  "2026-08-16T23:44:48.2767585Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_compiled_0rpq4pf._.js.map",
+                                                  "modified_at":  "2026-08-16T23:46:05.4555447Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\next-font-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:48.2751617Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\node_modules_next_dist_server_route-modules_app-page_0f6k0sl._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4495381Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\server\\interception-route-rewrite-manifest.js",
-                                                  "modified_at":  "2026-08-16T23:44:48.2741000Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\static\\chunks\\node_modules_next_dist_client_0fhqo1d._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4495381Z"
                                               },
                                               {
-                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\fallback-build-manifest.json",
-                                                  "modified_at":  "2026-08-16T23:44:48.2701171Z"
+                                                  "path":  "AZA-bouwregels-frontend-reference\\aza-bouwregels-reference\\.next\\dev\\server\\chunks\\ssr\\[root-of-the-server]__00e6rs.._.js",
+                                                  "modified_at":  "2026-08-16T23:46:05.4465390Z"
                                               }
                                           ],
                          "warning":  null
