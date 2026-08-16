@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "generated_at":  "2026-08-16T00:05:21.0994791Z",
+    "generated_at":  "2026-08-16T00:06:36.2733976Z",
     "machine_id":  "tweebeest",
     "projects":  [
                      {
@@ -599,13 +599,17 @@
                          "id":  "tradingbot",
                          "display_name":  "TradingBot",
                          "state":  "unversioned",
-                         "last_meaningful_change_at":  "2026-08-16T00:01:04.7943205Z",
+                         "last_meaningful_change_at":  "2026-08-16T00:05:37.5555311Z",
                          "git":  null,
                          "sync":  {
                                       "state":  "not_configured",
                                       "detail":  "Syncthing/NAS synchronization has not been configured yet."
                                   },
                          "recent_files":  [
+                                              {
+                                                  "path":  "project_description.md",
+                                                  "modified_at":  "2026-08-16T00:05:37.5555311Z"
+                                              },
                                               {
                                                   "path":  "examples\\rule_encoding_template.py",
                                                   "modified_at":  "2026-08-16T00:01:04.7943205Z"
